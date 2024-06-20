@@ -163,6 +163,10 @@ a {
     padding-bottom: 100px;
 }
 
+.main__content {
+    align-items: center;
+}
+
 .game-area {
     position: relative;
     display: flex;
@@ -514,6 +518,10 @@ a {
         padding-bottom: 0;
     }
 
+    .main__content {
+        align-items: start;
+    }
+
     .bomb {
         display: none;
     }
@@ -653,8 +661,19 @@ a {
     .violet-circle {
         display: block;
     }
+    .card3 {
+        top: 23%;
+        right: 4%;
+    }
+    .card4 {
+        top: 43%;
+        right: -5%;
+    }
     .winning-amount {
         margin-bottom: 0;
+    }
+    .winning__text {
+        padding-top: 110px;
     }
     .modal-popup {
         border-radius: 31px;
@@ -694,8 +713,29 @@ a {
 
 
 @media screen and (min-width: 1400px){
+    .card1 {
+        top: 20%;
+        right: 22%;
+    }
+    .card2 {
+        top: 19%;
+        right: 14%;
+    }
+    .card3 {
+        top: 23%;
+        right: 3%;
+    }
+    .card4 {
+        top: 42%;
+        right: -3%;
+    }
+    .card5 {
+        top: 56%;
+        right: -9%;
+    }
     .card6 {
         display: block;
+        right: 15%;
     }
 
     .header {
@@ -720,18 +760,59 @@ a {
         gap: 29px;
         padding-right: 185px;
     }
+    
+    .game-area__text {
+        margin-bottom: 24px;
+        font-size: 17px;
+    }
+    
+    
+}
+
+@media screen and (min-width: 1700px){
+    .card1 {
+        top: 7%;
+        right: 35%;
+    }
+    
+    .card2 {
+        top: 14%;
+        right: 21%;
+    }
+    
+    .card3 {
+        top: 23%;
+        right: 7%;
+    }
+    
+    .card4 {
+        top: 43%;
+        right: 2%;
+    }
+    
+    .card5 {
+        top: 56%;
+        right: 1%;
+    }
+    
+    .card6 {
+        bottom: -4%;
+        right: 25%;
+        z-index: -1;
+    }
     .game-area__wrapper {
         gap: 15px;
         margin-bottom: 50px;
         padding: 0 98px;
     }
-    .game-area__text {
-        margin-bottom: 24px;
-        font-size: 17px;
-    }
+
     .winning__text {
         font-size: 58px;
         margin-bottom: 30px;
+    }
+
+    .winning-amount__num {
+        font-size: 86px;
     }
     .winning-amount {
         gap: 10px;
@@ -741,11 +822,7 @@ a {
         border-radius: 5px 5px 0 0;
         width: 57px;
         height: 41px;
-    }
-    .winning-amount__num {
-        font-size: 86px;
-    }
-
+    } 
 }
 
 
