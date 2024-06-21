@@ -741,12 +741,13 @@ a {
         right: -3%;
     }
     .card5 {
-        top: 56%;
-        right: -9%;
+        top: 62%;
+        right: -11%;
     }
     .card6 {
         display: block;
-        right: 15%;
+        right: 17%;
+        bottom: -5%;
     }
 
     .header {
@@ -769,6 +770,9 @@ a {
         display: flex;
         gap: 29px;
         padding-right: 185px;
+    }
+    .winning__text {
+        font-size: 49px;
     }
     
     
