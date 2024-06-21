@@ -514,12 +514,11 @@ a {
         background: url(../img/stars.jpg) center center / cover no-repeat;    
     }
     .main {
-        flex: 1;
         padding-bottom: 0;
     }
 
     .main__content {
-        align-items: start;
+        align-items: center;
     }
 
     .bomb {
@@ -669,11 +668,12 @@ a {
         top: 43%;
         right: -5%;
     }
-    .winning-amount {
+
+    .header {
         margin-bottom: 0;
     }
-    .winning__text {
-        padding-top: 110px;
+    .winning-amount {
+        margin-bottom: 0;
     }
     .modal-popup {
         border-radius: 31px;
@@ -704,12 +704,23 @@ a {
         font-size: 23px;
     }
     .coins {
-        bottom: -155px;
-        right: -196px;
-        width: 462px;
+        bottom: -141px;
+        right: -192px;
+        width: 429px;
+    }
+    .game-area__wrapper {
+        gap: 20px;
+        margin-bottom: 5%;
+        width: 70%;
+    }
+
+    .game-area__text {
+        margin-bottom: 4%;
+        font-size: 90%;
     }
 
 }
+
 
 
 @media screen and (min-width: 1400px){
@@ -740,7 +751,6 @@ a {
 
     .header {
         padding-top: 56px;
-        margin-bottom: 108px;
     }
     .header__wrapper {
         gap: 0px;
@@ -759,11 +769,6 @@ a {
         display: flex;
         gap: 29px;
         padding-right: 185px;
-    }
-    
-    .game-area__text {
-        margin-bottom: 24px;
-        font-size: 17px;
     }
     
     
@@ -802,8 +807,6 @@ a {
     }
     .game-area__wrapper {
         gap: 15px;
-        margin-bottom: 50px;
-        padding: 0 98px;
     }
 
     .winning__text {
