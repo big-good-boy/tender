@@ -1,368 +1,880 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Тендерная площадка</title>
-</head>
-<body class="body main-page">
-  <div class="newsletter-block">
-    <div class="newsletter-block__items">
-      <p class="newsletter-block__text">Подключи рассылку новых тендеров на почту или в Telegram</p>
-      <a href="" class="newsletter-block__btn">Попробовать бесплатно</a>
-    </div>
-  </div>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="css/bootstrap.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/style.css" />
+		<title>Тендерная площадка</title>
+	</head>
+	<body class="body main-page">
+		<div class="newsletter-block">
+			<div class="newsletter-block__items">
+				<p class="newsletter-block__text">
+					Подключи рассылку новых тендеров на почту или в Telegram
+				</p>
+				<a href="" class="newsletter-block__btn">Попробовать бесплатно</a>
+			</div>
+		</div>
 
-    <!-- <header class="header">
-      <div class="header__top">
-        <div class="header__logo"><img src="img/logo.png" alt="Логотип"></div>
-        <div class="header__top-items">
+		<header class="header">
+			<div class="header__top">
+				<div class="header__logo"><img src="img/logo.png" alt="Логотип" /></div>
+				<div class="header__top-items">
+					<a href="" class="header__help-btn">
+						<svg
+							width="12"
+							height="12"
+							viewBox="0 0 12 12"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<g clip-path="url(#clip0_218_3605)">
+								<path
+									d="M6 11C8.76142 11 11 8.76142 11 6C11 3.23858 8.76142 1 6 1C3.23858 1 1 3.23858 1 6C1 8.76142 3.23858 11 6 11Z"
+									stroke="#878B8E"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+								<path
+									d="M4.54688 4.50004C4.66443 4.16587 4.89645 3.88409 5.20185 3.70461C5.50725 3.52512 5.86632 3.45951 6.21546 3.5194C6.5646 3.57928 6.88128 3.7608 7.10941 4.0318C7.33754 4.30281 7.4624 4.6458 7.46187 5.00004C7.46187 6.00004 5.96187 6.50004 5.96187 6.50004"
+									stroke="#878B8E"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+								<path
+									d="M6 8.5H6.005"
+									stroke="#878B8E"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+							</g>
+							<defs>
+								<clipPath id="clip0_218_3605">
+									<rect width="12" height="12" fill="white" />
+								</clipPath>
+							</defs>
+						</svg>
+						Помощь
+					</a>
 
-          <a href="" class="header__help-btn">
-            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <g clip-path="url(#clip0_218_3605)">
-                <path d="M6 11C8.76142 11 11 8.76142 11 6C11 3.23858 8.76142 1 6 1C3.23858 1 1 3.23858 1 6C1 8.76142 3.23858 11 6 11Z" stroke="#878B8E" stroke-linecap="round" stroke-linejoin="round" />
-                <path d="M4.54688 4.50004C4.66443 4.16587 4.89645 3.88409 5.20185 3.70461C5.50725 3.52512 5.86632 3.45951 6.21546 3.5194C6.5646 3.57928 6.88128 3.7608 7.10941 4.0318C7.33754 4.30281 7.4624 4.6458 7.46187 5.00004C7.46187 6.00004 5.96187 6.50004 5.96187 6.50004" stroke="#878B8E" stroke-linecap="round" stroke-linejoin="round" />
-                <path d="M6 8.5H6.005" stroke="#878B8E" stroke-linecap="round" stroke-linejoin="round" />
-              </g>
-              <defs>
-                <clipPath id="clip0_218_3605">
-                  <rect width="12" height="12" fill="white" />
-                </clipPath>
-              </defs>
-            </svg>
-            Помощь
-          </a>
+					<select class="form-select header__lang">
+						<option selected>Ru</option>
+						<option value="1">En</option>
+					</select>
 
-          <select class="form-select header__lang">
-            <option selected>Ru</option>
-            <option value="1">En</option>
-          </select>
+					<a href="" class="header__link-lk">Вход</a>
 
-          <a href="" class="header__link-lk">Вход</a>
+					<a href="" class="header__link-reg link-btn">Регистрация</a>
+				</div>
+			</div>
+		</header>
 
-          <a href="" class="header__link-reg link-btn">Регистрация</a>
+		<div class="menu">
+			<div class="menu__icon">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<nav class="menu__body">
+				<ul class="menu__list">
+					<li>
+						<a class="menu__link" href="#">Поиск тендеров</a>
+						<ul class="menu__list-level">
+							<li><a class="menu__link-level" href="#">Пункт меню</a></li>
+							<li><a class="menu__link-level" href="#">Пункт меню</a></li>
+							<li><a class="menu__link-level" href="#">Пункт меню</a></li>
+							<li><a class="menu__link-level" href="#">Поставщикам</a></li>
+						</ul>
+					</li>
+					<li>
+						<a class="menu__link" href="#">Поставщикам</a>
 
-        </div>
-      </div>
-    </header> -->
+						<ul class="menu__list-level">
+							<li><a class="menu__link-level" href="#">Пункт меню</a></li>
+							<li><a class="menu__link-level" href="#">Пункт меню</a></li>
+							<li><a class="menu__link-level" href="#">Пункт меню</a></li>
+							<li><a class="menu__link-level" href="#">Поставщикам</a></li>
+						</ul>
+					</li>
+					<li>
+						<a class="menu__link" href="#">Заказчикам</a>
 
-    <main class="main">
-      
-      <div class="promo">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 col-sm-12">
-              <div class="card card-large card-red text-white">
-                <div class="card-body">
-                  <h5 class="card-title">Продуктивная и удобная работа с закупками
-                    </h5>
-                  <p class="card-text">Находите закупки, следите за изменениями в избранных и анализируйте результаты торгов</p>
-                  <a href="#" class="btn btn-primary">Попробовать 3 дня бесплатно</a>
-                </div>
-                  <img src="" alt="" class="card__bg-img">
-              </div>
+						<ul class="menu__list-level">
+							<li><a class="menu__link-level" href="#">Пункт меню</a></li>
+							<li><a class="menu__link-level" href="#">Пункт меню</a></li>
+							<li><a class="menu__link-level" href="#">Пункт меню</a></li>
+							<li><a class="menu__link-level" href="#">Поставщикам</a></li>
+						</ul>
+					</li>
+					<li>
+						<a class="menu__link" href="#">Торговый портал</a>
 
-              <div class="card-small__wrapper">
-                <div class="card card-small">
-                  <div class="card-body">
-                    <h5 class="card-title">Тендерная площадка</h5>
-                    <p class="card-text">Находите закупки, следите за изменениями в избранных и анализируйте результаты торгов</p>
-                    <a href="#" class="btn-circle"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
-                      <rect width="48" height="48" rx="24" fill="#F6F6F6"/>
-                      <path d="M22.875 27.375L25.4545 24.7955C25.8938 24.3562 25.8938 23.6438 25.4545 23.2045L22.875 20.625" stroke="#EB3301" stroke-width="1.6875" stroke-linecap="round"/>
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-                <div class="card card-small">
-                  <div class="card-body">
-                    <h5 class="card-title">Торги</h5>
-                    <p class="card-text">Находите закупки, следите за изменениями в избранных и анализируйте результаты торгов</p>
-                    <a href="#" class="btn-circle"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
-                      <rect width="48" height="48" rx="24" fill="#F6F6F6"/>
-                      <path d="M22.875 27.375L25.4545 24.7955C25.8938 24.3562 25.8938 23.6438 25.4545 23.2045L22.875 20.625" stroke="#EB3301" stroke-width="1.6875" stroke-linecap="round"/>
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-sm-12 promo__img">
-              <div class="promo__img-container">
-                <img src="img/promo.png" alt="">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+						<ul class="menu__list-level">
+							<li><a class="menu__link-level" href="#">Пункт меню</a></li>
+							<li><a class="menu__link-level" href="#">Пункт меню</a></li>
+							<li><a class="menu__link-level" href="#">Пункт меню</a></li>
+							<li><a class="menu__link-level" href="#">Поставщикам</a></li>
+						</ul>
+					</li>
+					<li>
+						<a class="menu__link" href="#">Сервис импортозамещения</a>
 
+						<ul class="menu__list-level">
+							<li><a class="menu__link-level" href="#">Пункт меню</a></li>
+							<li><a class="menu__link-level" href="#">Пункт меню</a></li>
+							<li><a class="menu__link-level" href="#">Пункт меню</a></li>
+							<li><a class="menu__link-level" href="#">Поставщикам</a></li>
+						</ul>
+					</li>
+					<li>
+						<a class="menu__link" href="#">Специализированная ЭТП</a>
 
-      <section class="download">
-        <div class="container">
-          <div class="row download__content">
-            <div class="col-lg-6 col-sm-12 download__left-part">          
-              <h3 class="h3">Контролируйте весь цикл<br> закупки — от поиска до<br> хранения — в едином<br> пространстве</h3>
-              <p class="description">Настройте поиск с более 300 порталов и сайтов. Без дублей закупок, только актуальные и действующие ЭТП. Наши алгоритмы уберут лишнее и покажут государственные и коммерческие закупки с параметрами, которые важны вашей компании.</p>
-              <div class="download__btns">
-                <a href="" class="btn btn-red">Стать партнером</a>
-                <a href="" download="" class="btn-download">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M21 15V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V15" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    <path d="M7 10L12 15L17 10" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    <path d="M12 15V3" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                  </svg>
-                  Скачать PDF
-                </a>
-              </div>
-              <img src="img/red-arrow.svg" alt="" class="red-arrow">
-            </div>
+						<ul class="menu__list-level">
+							<li><a class="menu__link-level" href="#">Пункт меню</a></li>
+							<li><a class="menu__link-level" href="#">Пункт меню</a></li>
+							<li><a class="menu__link-level" href="#">Пункт меню</a></li>
+							<li><a class="menu__link-level" href="#">Поставщикам</a></li>
+						</ul>
+					</li>
+					<li>
+						<a class="menu__link" href="#">НСИ</a>
 
-            <div class="col-lg-6 col-sm-12">
-              <div class="card card-small card-long">
-                <div class="card-body">
-                  <h5 class="card-title">Организация работы</h5>
-                  <p class="card-text">Находите закупки, следите за изменениями в избранных и анализируйте результаты торгов</p>
-                  <a href="#" class="card-long__btn"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
-                    <rect width="48" height="48" rx="24" fill="#F6F6F6"/>
-                    <path d="M22.875 27.375L25.4545 24.7955C25.8938 24.3562 25.8938 23.6438 25.4545 23.2045L22.875 20.625" stroke="#EB3301" stroke-width="1.6875" stroke-linecap="round"/>
-                    </svg>
-                  </a>
-                </div>
-              </div>
+						<ul class="menu__list-level">
+							<li><a class="menu__link-level" href="#">Пункт меню</a></li>
+							<li><a class="menu__link-level" href="#">Пункт меню</a></li>
+							<li><a class="menu__link-level" href="#">Пункт меню</a></li>
+							<li><a class="menu__link-level" href="#">Поставщикам</a></li>
+						</ul>
+					</li>
+					<li>
+						<a class="menu__link" href="#">ЭДО</a>
 
-              <div class="card-small__wrapper">
-                <div class="card card-small">
-                  <div class="card-body">
-                    <h5 class="card-title">Полезная аналитика</h5>
-                    <p class="card-text">Поможем быстро оценить конкуренцию в отрасли, проанализировать интересных</p>
-                    <a href="#" class="btn-circle"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
-                      <rect width="48" height="48" rx="24" fill="#F6F6F6"/>
-                      <path d="M22.875 27.375L25.4545 24.7955C25.8938 24.3562 25.8938 23.6438 25.4545 23.2045L22.875 20.625" stroke="#EB3301" stroke-width="1.6875" stroke-linecap="round"/>
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-                <div class="card card-small">
-                  <div class="card-body">
-                    <h5 class="card-title">Организация работы</h5>
-                    <p class="card-text">Находите закупки, следите за изменениями в избранных и анализируйте результаты торгов</p>
-                    <a href="#" class="btn-circle"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
-                      <rect width="48" height="48" rx="24" fill="#F6F6F6"/>
-                      <path d="M22.875 27.375L25.4545 24.7955C25.8938 24.3562 25.8938 23.6438 25.4545 23.2045L22.875 20.625" stroke="#EB3301" stroke-width="1.6875" stroke-linecap="round"/>
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+						<ul class="menu__list-level">
+							<li><a class="menu__link-level" href="#">Пункт меню</a></li>
+							<li><a class="menu__link-level" href="#">Пункт меню</a></li>
+							<li><a class="menu__link-level" href="#">Пункт меню</a></li>
+							<li><a class="menu__link-level" href="#">Поставщикам</a></li>
+						</ul>
+					</li>
+					<li>
+						<a class="menu__link menu__link--ellipsis" href="#">
+							<span></span>
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<script>
+				const templateMenu = document.querySelector('.menu');
+				if (templateMenu) {
+					if (document.querySelector('.menu__icon')) {
+						document.querySelectorAll('.menu__icon').forEach((el) => {
+							el.addEventListener('click', () => {
+								document.querySelector('body').classList.toggle('lock');
+								templateMenu.classList.toggle('menu--open');
+							});
+						});
+					}
+					if (templateMenu.querySelector('a')) {
+						templateMenu.querySelectorAll('a').forEach((el) => {
+							el.addEventListener('click', () => {
+								document.querySelector('body').classList.remove('lock');
+								templateMenu.classList.remove('menu--open');
+							});
+						});
+					}
+				}
+			</script>
+		</div>
 
-          <div class="row download__cards-large">
+		<main class="main">
+			<div class="promo">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-8 col-sm-12">
+							<div class="card card-large card-red text-white card-decorate">
+								<div class="card-body">
+									<h5 class="card-title">
+										Продуктивная и удобная работа с закупками
+									</h5>
+									<p class="card-text">
+										Находите закупки, следите за изменениями в избранных и
+										анализируйте результаты торгов
+									</p>
+									<a href="#" class="btn btn-primary">
+										Попробовать 3 дня бесплатно
+									</a>
+								</div>
+								<img src="" alt="" class="card__bg-img" />
+							</div>
 
-            <div class="col-lg-6 col-sm-12 ">
-              <div class="card card-large card-red card-grey text-white">
-                <div class="card-body">
-                  <h5 class="card-title">Продуктивная и удобная работа с закупками
-                    </h5>
-                  <p class="card-text">Находите закупки, следите за изменениями в избранных и анализируйте результаты торгов</p>
-                  <a href="#" class="btn btn-primary">Скачать презентацию</a>
-                </div>
-                  <img src="" alt="" class="card__bg-img">
-              </div>
-            </div>
+							<div class="card-small__wrapper">
+								<div class="card card-small">
+									<div class="card-body">
+										<h5 class="card-title">Тендерная площадка</h5>
+										<p class="card-text">
+											Находите закупки, следите за изменениями в избранных и
+											анализируйте результаты торгов
+										</p>
+										<a href="#" class="btn-circle">
+											<svg
+												xmlns="http://www.w3.org/2000/svg"
+												width="48"
+												height="48"
+												viewBox="0 0 48 48"
+												fill="none"
+											>
+												<rect width="48" height="48" rx="24" fill="#F6F6F6" />
+												<path
+													d="M22.875 27.375L25.4545 24.7955C25.8938 24.3562 25.8938 23.6438 25.4545 23.2045L22.875 20.625"
+													stroke="#EB3301"
+													stroke-width="1.6875"
+													stroke-linecap="round"
+												/>
+											</svg>
+										</a>
+									</div>
+								</div>
+								<div class="card card-small">
+									<div class="card-body">
+										<h5 class="card-title">Торги</h5>
+										<p class="card-text">
+											Находите закупки, следите за изменениями в избранных и
+											анализируйте результаты торгов
+										</p>
+										<a href="#" class="btn-circle">
+											<svg
+												xmlns="http://www.w3.org/2000/svg"
+												width="48"
+												height="48"
+												viewBox="0 0 48 48"
+												fill="none"
+											>
+												<rect width="48" height="48" rx="24" fill="#F6F6F6" />
+												<path
+													d="M22.875 27.375L25.4545 24.7955C25.8938 24.3562 25.8938 23.6438 25.4545 23.2045L22.875 20.625"
+													stroke="#EB3301"
+													stroke-width="1.6875"
+													stroke-linecap="round"
+												/>
+											</svg>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-sm-12 promo__img">
+							<div class="promo__img-container">
+								<img src="img/promo.png" alt="" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 
-            <div class="col-lg-6 col-sm-12">
-              <div class="card card-large card-red text-white">
-                <div class="card-body">
-                  <h5 class="card-title">Продуктивная и удобная работа с закупками
-                    </h5>
-                  <p class="card-text">Находите закупки, следите за изменениями в избранных и анализируйте результаты торгов</p>
-                  <a href="#" class="btn btn-primary">Скачать презентацию</a>
-                </div>
-                  <img src="" alt="" class="card__bg-img">
-              </div>
-            </div>
+			<section class="download">
+				<div class="container">
+					<div class="row download__content">
+						<div class="col-lg-6 col-sm-12 download__left-part">
+							<h3 class="h3">
+								Контролируйте весь цикл
+								<br />
+								закупки — от поиска до
+								<br />
+								хранения — в едином
+								<br />
+								пространстве
+							</h3>
+							<p class="description">
+								Настройте поиск с более 300 порталов и сайтов. Без дублей
+								закупок, только актуальные и действующие ЭТП. Наши алгоритмы
+								уберут лишнее и покажут государственные и коммерческие закупки с
+								параметрами, которые важны вашей компании.
+							</p>
+							<div class="download__btns">
+								<a href="#" class="btn btn-red">Стать партнером</a>
+								<a href="#" download="" class="btn-download">
+									<svg
+										width="24"
+										height="24"
+										viewBox="0 0 24 24"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M21 15V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V15"
+											stroke="black"
+											stroke-width="2"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										/>
+										<path
+											d="M7 10L12 15L17 10"
+											stroke="black"
+											stroke-width="2"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										/>
+										<path
+											d="M12 15V3"
+											stroke="black"
+											stroke-width="2"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										/>
+									</svg>
+									Скачать PDF
+								</a>
+							</div>
+							<img src="img/red-arrow.svg" alt="" class="red-arrow" />
+						</div>
 
-          </div>
+						<div class="col-lg-6 col-sm-12">
+							<div class="card card-small card-long">
+								<div class="card-body">
+									<h5 class="card-title">Организация работы</h5>
+									<p class="card-text">
+										Находите закупки, следите за изменениями в избранных и
+										анализируйте результаты торгов
+									</p>
+									<a href="#" class="card-long__btn">
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											width="48"
+											height="48"
+											viewBox="0 0 48 48"
+											fill="none"
+										>
+											<rect width="48" height="48" rx="24" fill="#F6F6F6" />
+											<path
+												d="M22.875 27.375L25.4545 24.7955C25.8938 24.3562 25.8938 23.6438 25.4545 23.2045L22.875 20.625"
+												stroke="#EB3301"
+												stroke-width="1.6875"
+												stroke-linecap="round"
+											/>
+										</svg>
+									</a>
+								</div>
+							</div>
 
-        </div>
-      </section> 
+							<div class="card-small__wrapper">
+								<div class="card card-small">
+									<div class="card-body">
+										<h5 class="card-title">Полезная аналитика</h5>
+										<p class="card-text">
+											Поможем быстро оценить конкуренцию в отрасли,
+											проанализировать интересных
+										</p>
+										<a href="#" class="btn-circle">
+											<svg
+												xmlns="http://www.w3.org/2000/svg"
+												width="48"
+												height="48"
+												viewBox="0 0 48 48"
+												fill="none"
+											>
+												<rect width="48" height="48" rx="24" fill="#F6F6F6" />
+												<path
+													d="M22.875 27.375L25.4545 24.7955C25.8938 24.3562 25.8938 23.6438 25.4545 23.2045L22.875 20.625"
+													stroke="#EB3301"
+													stroke-width="1.6875"
+													stroke-linecap="round"
+												/>
+											</svg>
+										</a>
+									</div>
+								</div>
+								<div class="card card-small">
+									<div class="card-body">
+										<h5 class="card-title">Организация работы</h5>
+										<p class="card-text">
+											Находите закупки, следите за изменениями в избранных и
+											анализируйте результаты торгов
+										</p>
+										<a href="#" class="btn-circle">
+											<svg
+												xmlns="http://www.w3.org/2000/svg"
+												width="48"
+												height="48"
+												viewBox="0 0 48 48"
+												fill="none"
+											>
+												<rect width="48" height="48" rx="24" fill="#F6F6F6" />
+												<path
+													d="M22.875 27.375L25.4545 24.7955C25.8938 24.3562 25.8938 23.6438 25.4545 23.2045L22.875 20.625"
+													stroke="#EB3301"
+													stroke-width="1.6875"
+													stroke-linecap="round"
+												/>
+											</svg>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 
-      <section class="grey-bg">
-        <div class="grey-bg__img-top"><svg width="714" height="717" viewBox="0 0 714 717" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path opacity="0.1" d="M89.5 653L-46.2999 488.982C-61.4417 470.694 -42.3144 444.244 -20.2037 452.895L359.202 601.342C378.436 608.867 397.071 589.195 388.517 570.397L218.041 195.784C207.922 173.549 234.87 152.957 253.666 168.561L612.809 466.71C627.797 479.153 650.5 468.494 650.5 449.013V64" stroke="white" stroke-width="127" stroke-linecap="round" />
-        </svg></div>
-        <div class="grey-bg__img-bottom"><svg width="506" height="717" viewBox="0 0 506 717" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path opacity="0.1" d="M205.5 653L69.7001 488.982C54.5583 470.694 73.6856 444.244 95.7963 452.895L475.202 601.342C494.436 608.867 513.071 589.195 504.517 570.397L334.041 195.784C323.922 173.549 350.87 152.957 369.666 168.561L728.809 466.71C743.797 479.153 766.5 468.494 766.5 449.013V64" stroke="white" stroke-width="127" stroke-linecap="round" />
-        </svg></div>
-        <div class="grey-bg__border-top">
-          <img src="img/grey-bg.png" alt="">
-        </div>
-        <div class="grey-bg__content">
-          <div class="container">
-            <img src="img/red-arrow.svg" alt="" class="red-arrow2">
-            <div class="row">
-              <h2 class="h2 text-center text-white">Контролируйте весь цикл закупки <br>— от поиска до хранения — в едином <br> пространстве</h2>
-              <p class="description text-center">Настройте поиск с более 300 порталов и сайтов. Без дублей закупок, только актуальные и действующие ЭТП. </p>            
-            </div>
-          </div>
-        </div>
-        
-        <div class="grey-bg__info">
-          <div class="grey-bg__info-items">
-            <div class="grey-bg__item grey-bg__item-first">
-              <div class="grey-bg__item-img"><svg width="498" height="388" viewBox="0 0 498 388" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path opacity="0.1" d="M123.422 356.161L41.997 257.817C32.9181 246.851 44.3868 230.992 57.6442 236.179L285.134 325.188C296.666 329.7 307.84 317.904 302.711 306.633L200.494 82.0171C194.427 68.6847 210.585 56.3379 221.855 65.6943L437.195 244.463C446.182 251.923 459.795 245.532 459.795 233.852V3" stroke="#F85124" stroke-width="76.1485" stroke-linecap="round" />
-              </svg></div>
-              
-              <div class="container">
-                
-                <div class="row">
-                  <div class="col-lg-6 col-sm-12 grey-bg__text">
-                    <h3 class="h3">Находите больше подходящих
-                      закупок</h3>
-                    <p class="description">Настройте поиск с более 300 порталов и сайтов. Без дублей закупок, только актуальные и действующие ЭТП. Наши алгоритмы уберут лишнее и покажут государственные и коммерческие закупки с параметрами, которые важны вашей компании.</p>
-                  </div>
-                  <div class="col-lg-6 col-sm-12">
-                    <img src="img/bg-grey1.png" alt="">
-                  </div>
-                </div>
-              </div>
-            </div>
+					<div class="row download__cards-large">
+						<div class="col-lg-6 col-sm-12">
+							<div
+								class="card card-large card-red card-grey text-white card-decorate"
+							>
+								<div class="card-body">
+									<h5 class="card-title">
+										Продуктивная и удобная работа с закупками
+									</h5>
+									<p class="card-text">
+										Находите закупки, следите за изменениями в избранных и
+										анализируйте результаты торгов
+									</p>
+									<a href="#" class="btn btn-primary">Скачать презентацию</a>
+								</div>
+								<img src="" alt="" class="card__bg-img" />
+							</div>
+						</div>
 
-            <div class="grey-bg__item grey-bg__item-second">
-              <div class="grey-bg__item-img"><svg width="566" height="366" viewBox="0 0 566 366" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path opacity="0.1" d="M50.2568 232.644L38.5894 105.5C37.2885 91.3235 55.7091 84.7109 63.7215 96.4782L201.209 298.397C208.179 308.633 224.062 305.207 226.193 293.009L268.67 49.9117C271.191 35.4822 291.498 34.4162 295.516 48.5024L372.291 317.64C375.495 328.872 390.338 331.284 396.934 321.644L527.292 131.12" stroke="#F85124" stroke-width="76.1485" stroke-linecap="round" />
-              </svg></div>
-              <div class="container">
-                <div class="row">
-                  <div class="col-lg-6 col-sm-12">
-                    <img src="img/bg-grey2.png" alt="">
-                  </div>
-                  <div class="col-lg-6 col-sm-12 grey-bg__text">
-                    <h3 class="h3">Организуйте работу с тендерами</h3>
-                    <p class="description">Выстраивайте поток задач с помощью меток. Работайте с коллегами в одном пространстве и распределяйте задачи по ответственным за торговое направление или регион. Обсуждайте подготовку заявок и другие рабочие вопросы прямо в сервисе.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+						<div class="col-lg-6 col-sm-12">
+							<div class="card card-large card-red text-white card-decorate">
+								<div class="card-body">
+									<h5 class="card-title">
+										Продуктивная и удобная работа с закупками
+									</h5>
+									<p class="card-text">
+										Находите закупки, следите за изменениями в избранных и
+										анализируйте результаты торгов
+									</p>
+									<a href="#" class="btn btn-primary">Скачать презентацию</a>
+								</div>
+								<img src="" alt="" class="card__bg-img" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
-            <div class="grey-bg__item grey-bg__item-third">
-              <div class="container">
-                <div class="row">
-                  <div class="col-lg-6 col-sm-12 grey-bg__text">
-                    <h3 class="h3">Находите больше подходящих
-                      закупок</h3>
-                    <p class="description">Настройте поиск с более 300 порталов и сайтов. Без дублей закупок, только актуальные и действующие ЭТП. Наши алгоритмы уберут лишнее и покажут государственные и коммерческие закупки с параметрами, которые важны вашей компании.</p>
-                  </div>
-                  <div class="col-lg-6 col-sm-12">
-                    <img src="img/bg-grey3.png" alt="">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="grey-bg__offer">
-          .<div class="container">
-            <div class="row">
-                <div class="col-12">
-                  <h2 class="h2 text-center text-white">Попробуйте 3 дня бесплатно
-                  </h2>
-                  <p class="description text-center">Максимум полезной информации — в понятном интерфейсе, аналитика по заказчику и бывшим победителям — по щелчку, затраты на обеспечение — в калькуляторе Банковской гарантии.
-                  </p>
-                  <a href="" class="btn btn-red">Стать партнером</a>
-                </div>
-            </div>
-        </div>
-        </div>
-      </section>
+			<section class="grey-bg">
+				<div class="grey-bg__img-top">
+					<svg
+						width="714"
+						height="717"
+						viewBox="0 0 714 717"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg"
+					>
+						<path
+							opacity="0.1"
+							d="M89.5 653L-46.2999 488.982C-61.4417 470.694 -42.3144 444.244 -20.2037 452.895L359.202 601.342C378.436 608.867 397.071 589.195 388.517 570.397L218.041 195.784C207.922 173.549 234.87 152.957 253.666 168.561L612.809 466.71C627.797 479.153 650.5 468.494 650.5 449.013V64"
+							stroke="white"
+							stroke-width="127"
+							stroke-linecap="round"
+						/>
+					</svg>
+				</div>
+				<div class="grey-bg__img-bottom">
+					<svg
+						width="506"
+						height="717"
+						viewBox="0 0 506 717"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg"
+					>
+						<path
+							opacity="0.1"
+							d="M205.5 653L69.7001 488.982C54.5583 470.694 73.6856 444.244 95.7963 452.895L475.202 601.342C494.436 608.867 513.071 589.195 504.517 570.397L334.041 195.784C323.922 173.549 350.87 152.957 369.666 168.561L728.809 466.71C743.797 479.153 766.5 468.494 766.5 449.013V64"
+							stroke="white"
+							stroke-width="127"
+							stroke-linecap="round"
+						/>
+					</svg>
+				</div>
+				<div class="grey-bg__border-top">
+					<img src="img/grey-bg.png" alt="" />
+				</div>
+				<div class="grey-bg__content">
+					<div class="container">
+						<img src="img/red-arrow.svg" alt="" class="red-arrow2" />
+						<div class="row">
+							<h2 class="h2 text-center text-white">
+								Контролируйте весь цикл закупки
+								<br />
+								— от поиска до хранения — в едином
+								<br />
+								пространстве
+							</h2>
+							<p class="description text-center">
+								Настройте поиск с более 300 порталов и сайтов. Без дублей
+								закупок, только актуальные и действующие ЭТП.
+							</p>
+						</div>
+					</div>
+				</div>
 
+				<div class="grey-bg__info">
+					<div class="grey-bg__info-items">
+						<div class="grey-bg__item grey-bg__item-first">
+							<div class="grey-bg__item-img">
+								<svg
+									width="498"
+									height="388"
+									viewBox="0 0 498 388"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										opacity="0.1"
+										d="M123.422 356.161L41.997 257.817C32.9181 246.851 44.3868 230.992 57.6442 236.179L285.134 325.188C296.666 329.7 307.84 317.904 302.711 306.633L200.494 82.0171C194.427 68.6847 210.585 56.3379 221.855 65.6943L437.195 244.463C446.182 251.923 459.795 245.532 459.795 233.852V3"
+										stroke="#F85124"
+										stroke-width="76.1485"
+										stroke-linecap="round"
+									/>
+								</svg>
+							</div>
 
-      <section class="advantages">
-        <div class="container">
-          <div class="row advantages__row">
-            <div class="col-lg-5 col-sm-12">          
-              <h3 class="h3">Освободите время для стратегических задач, а рутину оставьте сервису</h3>
-            </div>
-            <div class="col-lg-7 col-sm-12  advantages__right-col"> 
-              <p class="description">Настройте поиск с более 300 порталов и сайтов. Без дублей закупок, только актуальные и действующие ЭТП. Наши алгоритмы уберут лишнее и покажут государственные и коммерческие закупки с параметрами, которые важны вашей компании.</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-6 col-sm-12">
-              <div class="card card-small card-long">
-                <div class="card-body">
-                  <h5 class="card-title">Быстро</h5>
-                  <p class="card-text">Смотрите документацию онлайн, без скачивания — это займет секунды.</p>
-                  <a href="#" class="card-long__btn"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
-                    <rect width="48" height="48" rx="24" fill="#F6F6F6"/>
-                    <path d="M22.875 27.375L25.4545 24.7955C25.8938 24.3562 25.8938 23.6438 25.4545 23.2045L22.875 20.625" stroke="#EB3301" stroke-width="1.6875" stroke-linecap="round"/>
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 col-sm-12">
-              <div class="card-small__wrapper">
-                <div class="card card-small">
-                  <div class="card-body">
-                    <h5 class="card-title">Интуитивно</h5>
-                    <p class="card-text">Вы легко разберетесь, как работать в сервисе: настроить шаблоны поиска — например,</p>
-                    <a href="#" class="btn-circle"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
-                      <rect width="48" height="48" rx="24" fill="#F6F6F6"/>
-                      <path d="M22.875 27.375L25.4545 24.7955C25.8938 24.3562 25.8938 23.6438 25.4545 23.2045L22.875 20.625" stroke="#EB3301" stroke-width="1.6875" stroke-linecap="round"/>
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-                <div class="card card-small">
-                  <div class="card-body">
-                    <h5 class="card-title">Удобно</h5>
-                    <p class="card-text">В сервисе просто получать аналитику закупок по 44-ФЗ и делать отчеты.</p>
-                    <a href="#" class="btn-circle"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
-                      <rect width="48" height="48" rx="24" fill="#F6F6F6"/>
-                      <path d="M22.875 27.375L25.4545 24.7955C25.8938 24.3562 25.8938 23.6438 25.4545 23.2045L22.875 20.625" stroke="#EB3301" stroke-width="1.6875" stroke-linecap="round"/>
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+							<div class="container">
+								<div class="row">
+									<div class="col-lg-6 col-sm-12 grey-bg__text">
+										<h3 class="h3">Находите больше подходящих закупок</h3>
+										<p class="description">
+											Настройте поиск с более 300 порталов и сайтов. Без дублей
+											закупок, только актуальные и действующие ЭТП. Наши
+											алгоритмы уберут лишнее и покажут государственные и
+											коммерческие закупки с параметрами, которые важны вашей
+											компании.
+										</p>
+									</div>
+									<div class="col-lg-6 col-sm-12">
+										<img src="img/bg-grey1.png" alt="" />
+									</div>
+								</div>
+							</div>
+						</div>
 
-          </div>
-        </div>
-      </section>
+						<div class="grey-bg__item grey-bg__item-second">
+							<div class="grey-bg__item-img">
+								<svg
+									width="566"
+									height="366"
+									viewBox="0 0 566 366"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										opacity="0.1"
+										d="M50.2568 232.644L38.5894 105.5C37.2885 91.3235 55.7091 84.7109 63.7215 96.4782L201.209 298.397C208.179 308.633 224.062 305.207 226.193 293.009L268.67 49.9117C271.191 35.4822 291.498 34.4162 295.516 48.5024L372.291 317.64C375.495 328.872 390.338 331.284 396.934 321.644L527.292 131.12"
+										stroke="#F85124"
+										stroke-width="76.1485"
+										stroke-linecap="round"
+									/>
+								</svg>
+							</div>
+							<div class="container">
+								<div class="row">
+									<div class="col-lg-6 col-sm-12">
+										<img src="img/bg-grey2.png" alt="" />
+									</div>
+									<div class="col-lg-6 col-sm-12 grey-bg__text">
+										<h3 class="h3">Организуйте работу с тендерами</h3>
+										<p class="description">
+											Выстраивайте поток задач с помощью меток. Работайте с
+											коллегами в одном пространстве и распределяйте задачи по
+											ответственным за торговое направление или регион.
+											Обсуждайте подготовку заявок и другие рабочие вопросы
+											прямо в сервисе.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
 
-      <section class="section__bottom">
-        <div class="section__bottom-img_left">
-          <img src="img/left-bg.png" alt="">
-        </div>
-        <div class="section__bottom-img_right">
-          <img src="img/right-bg.png" alt="">
-        </div>
+						<div class="grey-bg__item grey-bg__item-third">
+							<div class="container">
+								<div class="row">
+									<div class="col-lg-6 col-sm-12 grey-bg__text">
+										<h3 class="h3">Находите больше подходящих закупок</h3>
+										<p class="description">
+											Настройте поиск с более 300 порталов и сайтов. Без дублей
+											закупок, только актуальные и действующие ЭТП. Наши
+											алгоритмы уберут лишнее и покажут государственные и
+											коммерческие закупки с параметрами, которые важны вашей
+											компании.
+										</p>
+									</div>
+									<div class="col-lg-6 col-sm-12">
+										<img src="img/bg-grey3.png" alt="" />
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="grey-bg__offer">
+					.
+					<div class="container">
+						<div class="row">
+							<div class="col-12">
+								<h2 class="h2 text-center text-white">
+									Попробуйте 3 дня бесплатно
+								</h2>
+								<p class="description text-center">
+									Максимум полезной информации — в понятном интерфейсе,
+									аналитика по заказчику и бывшим победителям — по щелчку,
+									затраты на обеспечение — в калькуляторе Банковской гарантии.
+								</p>
+								<a href="" class="btn btn-red">Стать партнером</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
-        <div class="container">
-          <div class="row">
-            <div class="col-12 section__bottom-content">
-              <h4 class="h4 text-center">Новые тендеры будут ждать в почте, <br>
-               изменения закупок — в Избранном, <br>
-               напоминания о сроках — <br>
-               в мессенджере
-              </h2>
-              <a href="" class="btn btn-red">Стать партнером</a>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
+			<section class="advantages">
+				<div class="container">
+					<div class="row advantages__row">
+						<div class="col-lg-5 col-sm-12">
+							<h3 class="h3">
+								Освободите время для стратегических задач, а рутину оставьте
+								сервису
+							</h3>
+						</div>
+						<div class="col-lg-7 col-sm-12 advantages__right-col">
+							<p class="description">
+								Настройте поиск с более 300 порталов и сайтов. Без дублей
+								закупок, только актуальные и действующие ЭТП. Наши алгоритмы
+								уберут лишнее и покажут государственные и коммерческие закупки с
+								параметрами, которые важны вашей компании.
+							</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-6 col-sm-12">
+							<div class="card card-small card-long">
+								<div class="card-body">
+									<h5 class="card-title">Быстро</h5>
+									<p class="card-text">
+										Смотрите документацию онлайн, без скачивания — это займет
+										секунды.
+									</p>
+									<a href="#" class="card-long__btn">
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											width="48"
+											height="48"
+											viewBox="0 0 48 48"
+											fill="none"
+										>
+											<rect width="48" height="48" rx="24" fill="#F6F6F6" />
+											<path
+												d="M22.875 27.375L25.4545 24.7955C25.8938 24.3562 25.8938 23.6438 25.4545 23.2045L22.875 20.625"
+												stroke="#EB3301"
+												stroke-width="1.6875"
+												stroke-linecap="round"
+											/>
+										</svg>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-sm-12">
+							<div class="card-small__wrapper">
+								<div class="card card-small">
+									<div class="card-body">
+										<h5 class="card-title">Интуитивно</h5>
+										<p class="card-text">
+											Вы легко разберетесь, как работать в сервисе: настроить
+											шаблоны поиска — например,
+										</p>
+										<a href="#" class="btn-circle">
+											<svg
+												xmlns="http://www.w3.org/2000/svg"
+												width="48"
+												height="48"
+												viewBox="0 0 48 48"
+												fill="none"
+											>
+												<rect width="48" height="48" rx="24" fill="#F6F6F6" />
+												<path
+													d="M22.875 27.375L25.4545 24.7955C25.8938 24.3562 25.8938 23.6438 25.4545 23.2045L22.875 20.625"
+													stroke="#EB3301"
+													stroke-width="1.6875"
+													stroke-linecap="round"
+												/>
+											</svg>
+										</a>
+									</div>
+								</div>
+								<div class="card card-small">
+									<div class="card-body">
+										<h5 class="card-title">Удобно</h5>
+										<p class="card-text">
+											В сервисе просто получать аналитику закупок по 44-ФЗ и
+											делать отчеты.
+										</p>
+										<a href="#" class="btn-circle">
+											<svg
+												xmlns="http://www.w3.org/2000/svg"
+												width="48"
+												height="48"
+												viewBox="0 0 48 48"
+												fill="none"
+											>
+												<rect width="48" height="48" rx="24" fill="#F6F6F6" />
+												<path
+													d="M22.875 27.375L25.4545 24.7955C25.8938 24.3562 25.8938 23.6438 25.4545 23.2045L22.875 20.625"
+													stroke="#EB3301"
+													stroke-width="1.6875"
+													stroke-linecap="round"
+												/>
+											</svg>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
+			<section class="section__bottom">
+				<div class="section__bottom-img_left">
+					<img src="img/left-bg.png" alt="" />
+				</div>
+				<div class="section__bottom-img_right">
+					<img src="img/right-bg.png" alt="" />
+				</div>
 
+				<div class="container">
+					<div class="row">
+						<div class="col-12 section__bottom-content">
+							<h4 class="h4 text-center">
+								Новые тендеры будут ждать в почте,
+								<br />
+								изменения закупок — в Избранном,
+								<br />
+								напоминания о сроках —
+								<br />
+								в мессенджере
+							</h4>
+							<a href="" class="btn btn-red">Стать партнером</a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
 
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/script.js"></script>
-</body>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__inner">
+					<div class="footer__aside">
+						<div class="footer__logo">
+							<img src="img/logo.png" alt="Логотип" />
+						</div>
+						<div class="footer__contacts">
+							<div class="footer__contacts-title">Контакты</div>
+
+							<div class="footer__contacts-name">Адрес:</div>
+							<span class="footer__contacts-info">
+								г. Москва, Строительный проезд, д. 7а к. 12
+							</span>
+
+							<div class="footer__contacts-name">Телефон:</div>
+							<span class="footer__contacts-info">
+								<a href="tel:88005555016">8-800-555-50-16</a>
+							</span>
+
+							<div class="footer__contacts-name">E-mail:</div>
+							<span class="footer__contacts-info">
+								<a href="mailto:info@r-tender.ru">info@r-tender.ru</a>
+							</span>
+						</div>
+						<a class="footer__btn btn" href="#">Связаться с нами</a>
+					</div>
+
+					<div class="footer__content">
+						<div class="footer__menu">
+							<ul class="footer__menu-list">
+								<li class="footer__menu-item">
+									<a href="#">Поиск тендеров</a>
+									<ul>
+										<li><a href="#">Пункт меню</a></li>
+										<li><a href="#">Пункт меню</a></li>
+										<li><a href="#">Пункт меню</a></li>
+										<li><a href="#">Поставщикам</a></li>
+									</ul>
+								</li>
+								<li class="footer__menu-item">
+									<a href="#">Поставщикам</a>
+									<ul>
+										<li><a href="#">Пункт меню</a></li>
+										<li><a href="#">Пункт меню</a></li>
+										<li><a href="#">Пункт меню</a></li>
+										<li><a href="#">Поставщикам</a></li>
+									</ul>
+								</li>
+								<li class="footer__menu-item">
+									<a href="#">Заказчикам</a>
+									<ul>
+										<li><a href="#">Пункт меню</a></li>
+										<li><a href="#">Пункт меню</a></li>
+										<li><a href="#">Пункт меню</a></li>
+										<li><a href="#">Поставщикам</a></li>
+									</ul>
+								</li>
+								<li class="footer__menu-item">
+									<a href="#">Торговый портал</a>
+									<ul>
+										<li><a href="#">Пункт меню</a></li>
+										<li><a href="#">Пункт меню</a></li>
+										<li><a href="#">Пункт меню</a></li>
+										<li><a href="#">Поставщикам</a></li>
+									</ul>
+								</li>
+								<li class="footer__menu-item">
+									<a href="#">Сервис импортозамещения</a>
+									<ul>
+										<li><a href="#">Пункт меню</a></li>
+										<li><a href="#">Пункт меню</a></li>
+										<li><a href="#">Пункт меню</a></li>
+										<li><a href="#">Поставщикам</a></li>
+									</ul>
+								</li>
+								<li class="footer__menu-item">
+									<a href="#">Специализированная ЭТП</a>
+									<ul>
+										<li><a href="#">Пункт меню</a></li>
+										<li><a href="#">Пункт меню</a></li>
+										<li><a href="#">Пункт меню</a></li>
+										<li><a href="#">Поставщикам</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__text">
+							<p>
+								ООО «тендер» использует файлы cookie, с целью персонализации
+								сервисов и повышения удобства пользования веб-сайтом. «Cookie»
+								представляют собой небольшие файлы, содержащие информацию о
+								предыдущих посещениях веб-сайта. Продолжая использовать наш
+								сайт, вы соглашаетесь, что мы можем использовать файлы cookie.
+								Если вы не хотите использовать файлы «cookie», измените
+								настройки браузера.
+							</p>
+
+							<p>
+								На информационном ресурсе применяются рекомендательные
+								технологии.
+							</p>
+
+							<p>
+								Политика ООО «тендер» в области обработки и обеспечения
+								безопасности персональных данных.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
 </html>

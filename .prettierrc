@@ -1,0 +1,16 @@
+{
+	"useTabs": true,
+	"tabWidth": 2,
+	"trailingComma": "es5",
+	"singleQuote": true,
+	"semi": true,
+	"htmlWhitespaceSensitivity": "ignore",
+	"overrides": [
+		{
+			"files": ["*.css", "*.scss"],
+			"options": {
+				"singleQuote": false
+			}
+		}
+	]
+}
