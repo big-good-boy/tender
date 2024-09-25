@@ -1,3 +1,4 @@
+// меню бургер
 const templateMenu = document.querySelector('.menu');
 if (templateMenu) {
 	if (document.querySelector('.menu__icon')) {
@@ -16,4 +17,22 @@ if (templateMenu) {
 			});
 		});
 	}
+}
+
+// табы
+let lists = document.querySelectorAll('[role="tablist"]');
+Array.prototype.forEach.call(lists, function (list) {
+	new window.Tablist(list).mount();
+});
+
+// закрытие попапа при клике вне его
+if (document.querySelector('.popup')) {
+	document.querySelector('.popup').addEventListener('click', function (el) {
+		if (
+			el.target.classList.contains('popup') ||
+			el.target.classList.contains('popop__close')
+		) {
+			window.popup.close();
+		}
+	});
 }

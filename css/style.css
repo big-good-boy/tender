@@ -1230,3 +1230,230 @@ a {
 		transform: translate(0, 0);
 	}
 }
+
+[role="tabpanel"][aria-hidden="true"] {
+	display: none;
+}
+
+.popup {
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	border: none;
+	color: #222;
+	background-color: rgba(240, 240, 240, 0.75);
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.3s;
+}
+.popup[open] {
+	opacity: 1;
+	visibility: visible;
+}
+.popup__inner {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	max-width: 456px;
+	min-height: 551px;
+	max-height: 100%;
+	overflow: auto;
+	padding: 40px;
+	border-radius: 16px;
+	background-color: white;
+}
+.popup__logo {
+	width: 196px;
+	margin: 0 auto;
+	padding-bottom: 26px;
+}
+.popup__logo img {
+	width: 100%;
+}
+.popop__close {
+	position: absolute;
+	top: 44px;
+	right: 40px;
+	width: 24px;
+	height: 24px;
+	cursor: pointer;
+}
+.popop__close::before,
+.popop__close::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: #eb3301;
+	transition: 0.3s;
+}
+.popop__close:hover::before,
+.popop__close:hover::after {
+	background: #222;
+}
+.popop__close::before {
+	transform: rotate(45deg);
+}
+.popop__close::after {
+	transform: rotate(-45deg);
+}
+.popup__tablist {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+}
+.popup__tablist-items {
+	display: flex;
+	margin-bottom: 20px;
+}
+.popup__tablist-items li {
+	position: relative;
+	flex: 0 0 50%;
+	padding: 12px 0 17px;
+	font-size: 16px;
+	text-align: center;
+	cursor: pointer;
+	transition: 0.3s;
+}
+.popup__tablist-items li:hover {
+	color: #eb3301;
+}
+.popup__tablist-items li::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 3px;
+	background-color: transparent;
+	transition: 0.3s;
+}
+.popup__tablist-items li[aria-selected="true"] {
+	color: #eb3301;
+}
+.popup__tablist-items li[aria-selected="true"]::before {
+	background-color: #eb3301;
+}
+.popup__tablist-content {
+	/* flex-grow: 1; */
+	margin: auto 0;
+}
+.popup__authorization {
+}
+.popup__certificate {
+}
+.popup__certificate h4 {
+	font-size: 20px;
+	font-weight: 600;
+}
+.popup__certificate p {
+	font-size: 15px;
+}
+.popup__certificate h4 + p,
+.popup__certificate p + p {
+	margin: 18px 0;
+}
+.popup__register {
+	display: flex;
+	justify-content: center;
+	gap: 4px;
+	margin-top: auto;
+	align-items: center;
+	color: #222;
+	transition: 0.3s;
+}
+.popup__register:hover {
+	color: #eb3301;
+}
+.popup__register::after {
+	content: "";
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='17' height='16' fill='none'%3E%3Cpath fill='%23222' d='M6.157 2.973a.75.75 0 0 1 1.06-.007l3.844 3.794a1.75 1.75 0 0 1 .008 2.483L7.281 13.03a.75.75 0 0 1-1.06-1.06l3.786-3.79a.252.252 0 0 0 .053-.273.25.25 0 0 0-.055-.08l-3.84-3.793a.75.75 0 0 1-.008-1.06Z'/%3E%3C/svg%3E");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.authorization {
+}
+.authorization__form {
+	gap: 22px;
+	padding: 10px 0;
+}
+.authorization__label {
+	gap: 6px;
+}
+.authorization__form,
+.authorization__label {
+	display: flex;
+	flex-direction: column;
+}
+.authorization__name {
+	font-size: 14px;
+}
+.authorization__input {
+	padding: 7px 14px;
+	border: 1px solid rgba(0, 0, 0, 0.16);
+	outline: none;
+	border-radius: 2px;
+	background-color: #f6f6f6;
+}
+.authorization__row {
+	display: flex;
+	justify-content: space-between;
+	font-size: 14px;
+}
+.authorization__row label {
+	cursor: pointer;
+	transition: 0.3s;
+}
+.authorization__row label:hover {
+	color: #eb3301;
+}
+.authorization__row input {
+	display: none;
+}
+.authorization__row span::before {
+	content: "";
+	position: relative;
+	top: 1px;
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	border: 1px solid rgba(0, 0, 0, 0.16);
+	margin-right: 8px;
+	background-color: white;
+	border-radius: 4px;
+}
+.authorization__row input:checked + span:before {
+	background-color: #eb3301;
+	border-color: #eb3301;
+}
+.authorization__recover {
+	color: #222;
+	transition: 0.3s;
+}
+.authorization__recover:hover {
+	color: #eb3301;
+}
+.authorization__btn {
+	border: none;
+	margin-top: 8px;
+	margin-bottom: 4px;
+	padding: 10px 0;
+	font-size: 18px;
+	font-weight: 400;
+	color: white;
+	outline: none;
+	border-radius: 8px;
+	background-color: #eb3301;
+}

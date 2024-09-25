@@ -63,9 +63,11 @@
 						<option value="1">En</option>
 					</select>
 
-					<a href="" class="header__link-lk">Вход</a>
+					<a href="#" class="header__link-lk" onclick="window.popup.show()">
+						Вход
+					</a>
 
-					<a href="" class="header__link-reg link-btn">Регистрация</a>
+					<a href="#" class="header__link-reg link-btn">Регистрация</a>
 				</div>
 			</div>
 		</header>
@@ -852,7 +854,80 @@
 			</div>
 		</footer>
 
+		<dialog class="popup" id="popup">
+			<div class="popup__inner">
+				<div class="popup__logo">
+					<img src="img/logo.png" alt="" />
+				</div>
+				<div class="popop__close" onclick="window.popup.close()"></div>
+				<div class="popup__tablist">
+					<ul class="popup__tablist-items" role="tablist">
+						<li role="tab" aria-controls="tab-1">Пароль</li>
+						<li role="tab" aria-controls="tab-2">Сертификат</li>
+					</ul>
+
+					<ul class="popup__tablist-content">
+						<li role="tabpanel" id="tab-1">
+							<div class="popup__authorization authorization">
+								<form class="authorization__form">
+									<label class="authorization__label">
+										<span class="authorization__name">Почта</span>
+										<input class="authorization__input" type="email" />
+									</label>
+
+									<label class="authorization__label">
+										<span class="authorization__name">Пароль</span>
+										<input
+											class="authorization__input"
+											type="password"
+											required
+										/>
+									</label>
+
+									<div class="authorization__row">
+										<label>
+											<input type="checkbox" name="" value="" />
+											<span>Запомнить меня</span>
+										</label>
+										<a href="#" class="authorization__recover">
+											Забыли пароль?
+										</a>
+									</div>
+
+									<input
+										class="authorization__btn"
+										type="submit"
+										value="Войти"
+									/>
+								</form>
+							</div>
+						</li>
+						<li role="tabpanel" id="tab-2">
+							<div class="popup__certificate">
+								<h4>Настройте компьютер</h4>
+								<p>
+									Для работы с сертификатами
+									<a href="#">установите необходимые компоненты.</a>
+								</p>
+								<p>
+									Если не помогло,
+									<a href="#">обратитесь в поддержку.</a>
+								</p>
+								<p>
+									Если вы не пользуетесь входом по сертификату,
+									<a href="#">войдите по паролю.</a>
+								</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+
+				<a class="popup__register" href="#">Зарегистрироваться</a>
+			</div>
+		</dialog>
+
 		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/tablist.min.js"></script>
 		<script src="js/script.js"></script>
 	</body>
 </html>
