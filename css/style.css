@@ -1261,7 +1261,6 @@ a {
 	flex-direction: column;
 	width: 100%;
 	max-width: 456px;
-	min-height: 551px;
 	max-height: 100%;
 	overflow: auto;
 	padding: 40px;
@@ -1343,8 +1342,13 @@ a {
 	background-color: #eb3301;
 }
 .popup__tablist-content {
-	/* flex-grow: 1; */
 	margin: auto 0;
+}
+.popup__tablist-content > li {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	min-height: 300px;
 }
 .popup__authorization {
 }
@@ -1410,6 +1414,7 @@ a {
 .authorization__row {
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 	font-size: 14px;
 }
 .authorization__row label {
