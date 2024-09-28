@@ -36,3 +36,48 @@ if (document.querySelector('.popup')) {
 		}
 	});
 }
+
+// оформление селектов
+if (document.querySelector('.choices-js')) {
+	document.querySelectorAll('.choices-js').forEach((element) => {
+		new Choices(element, {
+			searchEnabled: false,
+			itemSelectText: '',
+			shouldSort: false,
+		});
+	});
+}
+
+// заполнение значений мин макс в параметрах поиска тендера
+if (
+	document.querySelector('.search-tenders__results-filter-link') &&
+	document.querySelector('.search-tenders__results-filter-flex') &&
+	document.querySelector('input[name=maxPrice]') &&
+	document.querySelector('input[name=minPrice]')
+) {
+	document
+		.querySelectorAll('.search-tenders__results-filter-link')
+		.forEach((el) => {
+			el.addEventListener('click', () => {
+				el
+					.closest('.search-tenders__results-filter-flex')
+					.querySelector('input[name=minPrice]').value =
+					el.getAttribute('data-min');
+				el
+					.closest('.search-tenders__results-filter-flex')
+					.querySelector('input[name=maxPrice]').value =
+					el.getAttribute('data-max');
+			});
+		});
+}
+
+// разделение разрядов чисел в инпутах параметров поиска тендера
+document
+	.querySelectorAll('.search-tenders__results-filter-wrap > input')
+	.forEach((input) => {
+		input.oninput = () => {
+			input.value = input.value
+				.replace(/\D/g, '')
+				.replace(/(\d)(?=(\d{3})+$)/g, '$1 ');
+		};
+	});
