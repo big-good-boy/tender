@@ -1,0 +1,2236 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="css/bootstrap.min.css" rel="stylesheet" />
+		<link href="css/choices.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/style.css" />
+		<title>Тендерная площадка</title>
+	</head>
+	<body class="body main-page">
+		<div class="newsletter-block">
+			<div class="newsletter-block__items">
+				<p class="newsletter-block__text">
+					Подключи рассылку новых тендеров на почту или в Telegram
+				</p>
+				<a href="" class="newsletter-block__btn">Попробовать бесплатно</a>
+			</div>
+		</div>
+
+		<header class="header">
+			<div class="header__top">
+				<div class="header__logo"><img src="img/logo.png" alt="Логотип" /></div>
+				<div class="header__top-items">
+					<a href="" class="header__help-btn">
+						<svg
+							width="12"
+							height="12"
+							viewBox="0 0 12 12"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<g clip-path="url(#clip0_218_3605)">
+								<path
+									d="M6 11C8.76142 11 11 8.76142 11 6C11 3.23858 8.76142 1 6 1C3.23858 1 1 3.23858 1 6C1 8.76142 3.23858 11 6 11Z"
+									stroke="#878B8E"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+								<path
+									d="M4.54688 4.50004C4.66443 4.16587 4.89645 3.88409 5.20185 3.70461C5.50725 3.52512 5.86632 3.45951 6.21546 3.5194C6.5646 3.57928 6.88128 3.7608 7.10941 4.0318C7.33754 4.30281 7.4624 4.6458 7.46187 5.00004C7.46187 6.00004 5.96187 6.50004 5.96187 6.50004"
+									stroke="#878B8E"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+								<path
+									d="M6 8.5H6.005"
+									stroke="#878B8E"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+							</g>
+							<defs>
+								<clipPath id="clip0_218_3605">
+									<rect width="12" height="12" fill="white" />
+								</clipPath>
+							</defs>
+						</svg>
+						Помощь
+					</a>
+
+					<select class="form-select header__lang">
+						<option selected>Ru</option>
+						<option value="1">En</option>
+					</select>
+
+					<a href="#" class="header__link-lk" onclick="window.popup.show()">
+						Вход
+					</a>
+
+					<a href="#" class="header__link-reg link-btn">Регистрация</a>
+				</div>
+			</div>
+		</header>
+
+		<div class="menu">
+			<div class="menu__icon">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<nav class="menu__body">
+				<ul class="menu__list">
+					<li>
+						<a class="menu__link" href="#">Поиск тендеров</a>
+						<ul class="menu__list-level">
+							<li><a class="menu__link-level" href="#">Пункт меню</a></li>
+							<li><a class="menu__link-level" href="#">Пункт меню</a></li>
+							<li><a class="menu__link-level" href="#">Пункт меню</a></li>
+							<li><a class="menu__link-level" href="#">Поставщикам</a></li>
+						</ul>
+					</li>
+					<li>
+						<a class="menu__link menu__link--active" href="#">Поставщикам</a>
+
+						<ul class="menu__list-level">
+							<li><a class="menu__link-level" href="#">Пункт меню</a></li>
+							<li><a class="menu__link-level" href="#">Пункт меню</a></li>
+							<li><a class="menu__link-level" href="#">Пункт меню</a></li>
+							<li><a class="menu__link-level" href="#">Поставщикам</a></li>
+						</ul>
+					</li>
+					<li>
+						<a class="menu__link" href="#">Заказчикам</a>
+
+						<ul class="menu__list-level">
+							<li><a class="menu__link-level" href="#">Пункт меню</a></li>
+							<li><a class="menu__link-level" href="#">Пункт меню</a></li>
+							<li><a class="menu__link-level" href="#">Пункт меню</a></li>
+							<li><a class="menu__link-level" href="#">Поставщикам</a></li>
+						</ul>
+					</li>
+					<li>
+						<a class="menu__link" href="#">Торговый портал</a>
+
+						<ul class="menu__list-level">
+							<li><a class="menu__link-level" href="#">Пункт меню</a></li>
+							<li><a class="menu__link-level" href="#">Пункт меню</a></li>
+							<li><a class="menu__link-level" href="#">Пункт меню</a></li>
+							<li><a class="menu__link-level" href="#">Поставщикам</a></li>
+						</ul>
+					</li>
+					<li>
+						<a class="menu__link" href="#">Сервис импортозамещения</a>
+
+						<ul class="menu__list-level">
+							<li><a class="menu__link-level" href="#">Пункт меню</a></li>
+							<li><a class="menu__link-level" href="#">Пункт меню</a></li>
+							<li><a class="menu__link-level" href="#">Пункт меню</a></li>
+							<li><a class="menu__link-level" href="#">Поставщикам</a></li>
+						</ul>
+					</li>
+					<li>
+						<a class="menu__link" href="#">Специализированная ЭТП</a>
+
+						<ul class="menu__list-level">
+							<li><a class="menu__link-level" href="#">Пункт меню</a></li>
+							<li><a class="menu__link-level" href="#">Пункт меню</a></li>
+							<li><a class="menu__link-level" href="#">Пункт меню</a></li>
+							<li><a class="menu__link-level" href="#">Поставщикам</a></li>
+						</ul>
+					</li>
+					<li>
+						<a class="menu__link" href="#">НСИ</a>
+
+						<ul class="menu__list-level">
+							<li><a class="menu__link-level" href="#">Пункт меню</a></li>
+							<li><a class="menu__link-level" href="#">Пункт меню</a></li>
+							<li><a class="menu__link-level" href="#">Пункт меню</a></li>
+							<li><a class="menu__link-level" href="#">Поставщикам</a></li>
+						</ul>
+					</li>
+					<li>
+						<a class="menu__link" href="#">ЭДО</a>
+
+						<ul class="menu__list-level">
+							<li><a class="menu__link-level" href="#">Пункт меню</a></li>
+							<li><a class="menu__link-level" href="#">Пункт меню</a></li>
+							<li><a class="menu__link-level" href="#">Пункт меню</a></li>
+							<li><a class="menu__link-level" href="#">Поставщикам</a></li>
+						</ul>
+					</li>
+					<li>
+						<a class="menu__link menu__link--ellipsis" href="#">
+							<span></span>
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+
+		<main class="main">
+			<div class="breadcrumbs">
+				<div class="container">
+					<div class="breadcrumbs__inner">
+						<ul class="breadcrumbs__list">
+							<li class="breadcrumbs__item">
+								<a class="breadcrumbs__link" href="/">Главная</a>
+							</li>
+							<li class="breadcrumbs__item">Новости</li>
+						</ul>
+						<h1 class="breadcrumbs__title">Новости</h1>
+					</div>
+				</div>
+			</div>
+
+			<div class="news-list">
+				<div class="container">
+					<div class="news-list__inner">
+						<div class="news-list__tablist">
+							<ul class="news-list__tablist-items" role="tablist">
+								<li role="tab" aria-controls="group-1">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										width="16"
+										height="16"
+										viewBox="0 0 16 16"
+									>
+										<path d="M1 12v-1h9v1H1zm0-5h14v1H1V7zm11-4v1H1V3h11z" />
+									</svg>
+									Все статьи
+								</li>
+								<li role="tab" aria-controls="group-2">44-ФЗ</li>
+								<li role="tab" aria-controls="group-3">223-ФЗ</li>
+								<li role="tab" aria-controls="group-4">Практика</li>
+								<li role="tab" aria-controls="group-5">Изменения в законе</li>
+								<li role="tab" aria-controls="group-6">Мероприятия</li>
+								<li role="tab" aria-controls="group-7">Нацрежим</li>
+								<li role="tab" aria-controls="group-8">Отвлекись!</li>
+								<li role="tab" aria-controls="group-9">Вопрос эксперту</li>
+								<li role="tab" aria-controls="group-10">Видео</li>
+							</ul>
+
+							<ul class="news-list__tablist-content">
+								<li role="tabpanel" id="group-1">
+									<ul class="news-list__list">
+										<li class="news-list__item news-list__item--big">
+											<div class="news-list__item-img"></div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Что такое российскость товара
+													<br />
+													в закупках
+												</p>
+												<footer>
+													<span class="news-list__item-date">11 июля</span>
+													<span class="news-list__item-comments"></span>
+													<span class="news-list__item-category">Нацрежим</span>
+													<span class="news-list__item-author">
+														<img
+															src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+															alt=""
+														/>
+														Павел Мойсеенко
+													</span>
+												</footer>
+											</div>
+										</li>
+
+										<li class="news-list__item">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Новости за июнь: привлечение субподрядчиков,
+													требования к независимой гарантии и отказ в оплате
+													контракта
+												</p>
+												<footer>
+													<span class="news-list__item-date">10 июля</span>
+													<span class="news-list__item-comments"></span>
+													<span class="news-list__item-category">Видео</span>
+													<span class="news-list__item-author"></span>
+												</footer>
+											</div>
+										</li>
+
+										<li class="news-list__item">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Нацрежим: история, настоящее, будущее
+												</p>
+												<footer>
+													<span class="news-list__item-date">9 июля</span>
+													<span class="news-list__item-comments"></span>
+													<span class="news-list__item-category">Нацрежим</span>
+													<span class="news-list__item-author"></span>
+												</footer>
+											</div>
+										</li>
+
+										<li class="news-list__item">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Как подать запрос
+													<br />
+													на разъяснения по 44-ФЗ
+												</p>
+												<footer>
+													<span class="news-list__item-date">10 июля</span>
+													<span class="news-list__item-comments">
+														<svg
+															xmlns="http://www.w3.org/2000/svg"
+															width="22"
+															height="22"
+															fill="none"
+															viewBox="0 -0.5 25 25"
+														>
+															<path
+																fill="#999"
+																d="M9 8.517a.75.75 0 0 0 0 1.5v-1.5Zm7 1.5a.75.75 0 0 0 0-1.5v1.5Zm-6.125 1.059a.75.75 0 0 0 0 1.5v-1.5Zm5.25 1.5a.75.75 0 0 0 0-1.5v1.5ZM9.163 5v-.75h-.005l.005.75Zm6.675 0 .006-.75h-.006V5ZM19.5 8.717l-.75-.006v.006h.75Zm0 4.513h-.75v.005l.75-.005Zm-1.062 2.617-.534-.526.534.526Zm-2.6 1.1v.75h.005l-.006-.75Zm-6.675 0v-.75a.75.75 0 0 0-.367.096l.367.654ZM5.5 19h-.75a.75.75 0 0 0 1.117.654L5.5 19Zm0-10.283h.75v-.006l-.75.006ZM6.562 6.1l-.534-.527.534.527ZM9 10.017h7v-1.5H9v1.5Zm.875 2.559h5.25v-1.5h-5.25v1.5ZM9.163 5.75h6.675v-1.5H9.163v1.5Zm6.67 0a2.94 2.94 0 0 1 2.917 2.961l1.5.012a4.44 4.44 0 0 0-4.406-4.473l-.012 1.5Zm2.917 2.967v4.513h1.5V8.717h-1.5Zm0 4.518a2.94 2.94 0 0 1-.846 2.086l1.069 1.053a4.44 4.44 0 0 0 1.277-3.15l-1.5.011Zm-.846 2.086a2.94 2.94 0 0 1-2.072.876l.01 1.5a4.44 4.44 0 0 0 3.13-1.323l-1.068-1.053Zm-2.067.876H9.163v1.5h6.674v-1.5Zm-7.04.096-3.664 2.053.734 1.308 3.663-2.053-.734-1.308ZM6.25 19V8.717h-1.5V19h1.5Zm0-10.289a2.94 2.94 0 0 1 .846-2.085L6.028 5.573a4.44 4.44 0 0 0-1.278 3.15l1.5-.012Zm.846-2.085a2.94 2.94 0 0 1 2.073-.876l-.011-1.5a4.44 4.44 0 0 0-3.13 1.323l1.068 1.053Z"
+															/>
+														</svg>
+														222
+													</span>
+													<span class="news-list__item-category">Видео</span>
+													<span class="news-list__item-author"></span>
+												</footer>
+											</div>
+										</li>
+
+										<li class="news-list__item">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Как подать запрос
+													<br />
+													на разъяснения по 44-ФЗ
+												</p>
+												<footer>
+													<span class="news-list__item-date">10 июля</span>
+													<span class="news-list__item-comments">
+														<svg
+															xmlns="http://www.w3.org/2000/svg"
+															width="22"
+															height="22"
+															fill="none"
+															viewBox="0 -0.5 25 25"
+														>
+															<path
+																fill="#999"
+																d="M9 8.517a.75.75 0 0 0 0 1.5v-1.5Zm7 1.5a.75.75 0 0 0 0-1.5v1.5Zm-6.125 1.059a.75.75 0 0 0 0 1.5v-1.5Zm5.25 1.5a.75.75 0 0 0 0-1.5v1.5ZM9.163 5v-.75h-.005l.005.75Zm6.675 0 .006-.75h-.006V5ZM19.5 8.717l-.75-.006v.006h.75Zm0 4.513h-.75v.005l.75-.005Zm-1.062 2.617-.534-.526.534.526Zm-2.6 1.1v.75h.005l-.006-.75Zm-6.675 0v-.75a.75.75 0 0 0-.367.096l.367.654ZM5.5 19h-.75a.75.75 0 0 0 1.117.654L5.5 19Zm0-10.283h.75v-.006l-.75.006ZM6.562 6.1l-.534-.527.534.527ZM9 10.017h7v-1.5H9v1.5Zm.875 2.559h5.25v-1.5h-5.25v1.5ZM9.163 5.75h6.675v-1.5H9.163v1.5Zm6.67 0a2.94 2.94 0 0 1 2.917 2.961l1.5.012a4.44 4.44 0 0 0-4.406-4.473l-.012 1.5Zm2.917 2.967v4.513h1.5V8.717h-1.5Zm0 4.518a2.94 2.94 0 0 1-.846 2.086l1.069 1.053a4.44 4.44 0 0 0 1.277-3.15l-1.5.011Zm-.846 2.086a2.94 2.94 0 0 1-2.072.876l.01 1.5a4.44 4.44 0 0 0 3.13-1.323l-1.068-1.053Zm-2.067.876H9.163v1.5h6.674v-1.5Zm-7.04.096-3.664 2.053.734 1.308 3.663-2.053-.734-1.308ZM6.25 19V8.717h-1.5V19h1.5Zm0-10.289a2.94 2.94 0 0 1 .846-2.085L6.028 5.573a4.44 4.44 0 0 0-1.278 3.15l1.5-.012Zm.846-2.085a2.94 2.94 0 0 1 2.073-.876l-.011-1.5a4.44 4.44 0 0 0-3.13 1.323l1.068 1.053Z"
+															/>
+														</svg>
+														222
+													</span>
+													<span class="news-list__item-category">Видео</span>
+													<span class="news-list__item-author"></span>
+												</footer>
+											</div>
+										</li>
+
+										<li class="news-list__item news-list__item--date">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Импортозамещение в закупках: возможности и риски
+												</p>
+												<footer>
+													<span class="news-list__item-date">
+														<span>8</span>
+														июля
+													</span>
+													<span class="news-list__item-comments">
+														<svg
+															xmlns="http://www.w3.org/2000/svg"
+															width="22"
+															height="22"
+															fill="none"
+															viewBox="0 -0.5 25 25"
+														>
+															<path
+																fill="#999"
+																d="M9 8.517a.75.75 0 0 0 0 1.5v-1.5Zm7 1.5a.75.75 0 0 0 0-1.5v1.5Zm-6.125 1.059a.75.75 0 0 0 0 1.5v-1.5Zm5.25 1.5a.75.75 0 0 0 0-1.5v1.5ZM9.163 5v-.75h-.005l.005.75Zm6.675 0 .006-.75h-.006V5ZM19.5 8.717l-.75-.006v.006h.75Zm0 4.513h-.75v.005l.75-.005Zm-1.062 2.617-.534-.526.534.526Zm-2.6 1.1v.75h.005l-.006-.75Zm-6.675 0v-.75a.75.75 0 0 0-.367.096l.367.654ZM5.5 19h-.75a.75.75 0 0 0 1.117.654L5.5 19Zm0-10.283h.75v-.006l-.75.006ZM6.562 6.1l-.534-.527.534.527ZM9 10.017h7v-1.5H9v1.5Zm.875 2.559h5.25v-1.5h-5.25v1.5ZM9.163 5.75h6.675v-1.5H9.163v1.5Zm6.67 0a2.94 2.94 0 0 1 2.917 2.961l1.5.012a4.44 4.44 0 0 0-4.406-4.473l-.012 1.5Zm2.917 2.967v4.513h1.5V8.717h-1.5Zm0 4.518a2.94 2.94 0 0 1-.846 2.086l1.069 1.053a4.44 4.44 0 0 0 1.277-3.15l-1.5.011Zm-.846 2.086a2.94 2.94 0 0 1-2.072.876l.01 1.5a4.44 4.44 0 0 0 3.13-1.323l-1.068-1.053Zm-2.067.876H9.163v1.5h6.674v-1.5Zm-7.04.096-3.664 2.053.734 1.308 3.663-2.053-.734-1.308ZM6.25 19V8.717h-1.5V19h1.5Zm0-10.289a2.94 2.94 0 0 1 .846-2.085L6.028 5.573a4.44 4.44 0 0 0-1.278 3.15l1.5-.012Zm.846-2.085a2.94 2.94 0 0 1 2.073-.876l-.011-1.5a4.44 4.44 0 0 0-3.13 1.323l1.068 1.053Z"
+															/>
+														</svg>
+														2
+													</span>
+													<span class="news-list__item-category"></span>
+													<span class="news-list__item-author"></span>
+												</footer>
+											</div>
+										</li>
+									</ul>
+								</li>
+
+								<li role="tabpanel" id="group-2">
+									<ul class="news-list__list">
+										<li class="news-list__item">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Что такое российскость товара
+													<br />
+													в закупках
+												</p>
+												<footer>
+													<span class="news-list__item-date">11 июля</span>
+													<span class="news-list__item-comments"></span>
+													<span class="news-list__item-category">Нацрежим</span>
+													<span class="news-list__item-author">
+														<img
+															src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+															alt=""
+														/>
+														Павел Мойсеенко
+													</span>
+												</footer>
+											</div>
+										</li>
+
+										<li class="news-list__item">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Новости за июнь: привлечение субподрядчиков,
+													требования к независимой гарантии и отказ в оплате
+													контракта
+												</p>
+												<footer>
+													<span class="news-list__item-date">10 июля</span>
+													<span class="news-list__item-comments"></span>
+													<span class="news-list__item-category">Видео</span>
+													<span class="news-list__item-author"></span>
+												</footer>
+											</div>
+										</li>
+
+										<li class="news-list__item">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Нацрежим: история, настоящее, будущее
+												</p>
+												<footer>
+													<span class="news-list__item-date">9 июля</span>
+													<span class="news-list__item-comments"></span>
+													<span class="news-list__item-category">Нацрежим</span>
+													<span class="news-list__item-author"></span>
+												</footer>
+											</div>
+										</li>
+
+										<li class="news-list__item">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Как подать запрос
+													<br />
+													на разъяснения по 44-ФЗ
+												</p>
+												<footer>
+													<span class="news-list__item-date">10 июля</span>
+													<span class="news-list__item-comments">
+														<svg
+															xmlns="http://www.w3.org/2000/svg"
+															width="22"
+															height="22"
+															fill="none"
+															viewBox="0 -0.5 25 25"
+														>
+															<path
+																fill="#999"
+																d="M9 8.517a.75.75 0 0 0 0 1.5v-1.5Zm7 1.5a.75.75 0 0 0 0-1.5v1.5Zm-6.125 1.059a.75.75 0 0 0 0 1.5v-1.5Zm5.25 1.5a.75.75 0 0 0 0-1.5v1.5ZM9.163 5v-.75h-.005l.005.75Zm6.675 0 .006-.75h-.006V5ZM19.5 8.717l-.75-.006v.006h.75Zm0 4.513h-.75v.005l.75-.005Zm-1.062 2.617-.534-.526.534.526Zm-2.6 1.1v.75h.005l-.006-.75Zm-6.675 0v-.75a.75.75 0 0 0-.367.096l.367.654ZM5.5 19h-.75a.75.75 0 0 0 1.117.654L5.5 19Zm0-10.283h.75v-.006l-.75.006ZM6.562 6.1l-.534-.527.534.527ZM9 10.017h7v-1.5H9v1.5Zm.875 2.559h5.25v-1.5h-5.25v1.5ZM9.163 5.75h6.675v-1.5H9.163v1.5Zm6.67 0a2.94 2.94 0 0 1 2.917 2.961l1.5.012a4.44 4.44 0 0 0-4.406-4.473l-.012 1.5Zm2.917 2.967v4.513h1.5V8.717h-1.5Zm0 4.518a2.94 2.94 0 0 1-.846 2.086l1.069 1.053a4.44 4.44 0 0 0 1.277-3.15l-1.5.011Zm-.846 2.086a2.94 2.94 0 0 1-2.072.876l.01 1.5a4.44 4.44 0 0 0 3.13-1.323l-1.068-1.053Zm-2.067.876H9.163v1.5h6.674v-1.5Zm-7.04.096-3.664 2.053.734 1.308 3.663-2.053-.734-1.308ZM6.25 19V8.717h-1.5V19h1.5Zm0-10.289a2.94 2.94 0 0 1 .846-2.085L6.028 5.573a4.44 4.44 0 0 0-1.278 3.15l1.5-.012Zm.846-2.085a2.94 2.94 0 0 1 2.073-.876l-.011-1.5a4.44 4.44 0 0 0-3.13 1.323l1.068 1.053Z"
+															/>
+														</svg>
+														222
+													</span>
+													<span class="news-list__item-category">Видео</span>
+													<span class="news-list__item-author"></span>
+												</footer>
+											</div>
+										</li>
+
+										<li class="news-list__item">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Как подать запрос
+													<br />
+													на разъяснения по 44-ФЗ
+												</p>
+												<footer>
+													<span class="news-list__item-date">10 июля</span>
+													<span class="news-list__item-comments">
+														<svg
+															xmlns="http://www.w3.org/2000/svg"
+															width="22"
+															height="22"
+															fill="none"
+															viewBox="0 -0.5 25 25"
+														>
+															<path
+																fill="#999"
+																d="M9 8.517a.75.75 0 0 0 0 1.5v-1.5Zm7 1.5a.75.75 0 0 0 0-1.5v1.5Zm-6.125 1.059a.75.75 0 0 0 0 1.5v-1.5Zm5.25 1.5a.75.75 0 0 0 0-1.5v1.5ZM9.163 5v-.75h-.005l.005.75Zm6.675 0 .006-.75h-.006V5ZM19.5 8.717l-.75-.006v.006h.75Zm0 4.513h-.75v.005l.75-.005Zm-1.062 2.617-.534-.526.534.526Zm-2.6 1.1v.75h.005l-.006-.75Zm-6.675 0v-.75a.75.75 0 0 0-.367.096l.367.654ZM5.5 19h-.75a.75.75 0 0 0 1.117.654L5.5 19Zm0-10.283h.75v-.006l-.75.006ZM6.562 6.1l-.534-.527.534.527ZM9 10.017h7v-1.5H9v1.5Zm.875 2.559h5.25v-1.5h-5.25v1.5ZM9.163 5.75h6.675v-1.5H9.163v1.5Zm6.67 0a2.94 2.94 0 0 1 2.917 2.961l1.5.012a4.44 4.44 0 0 0-4.406-4.473l-.012 1.5Zm2.917 2.967v4.513h1.5V8.717h-1.5Zm0 4.518a2.94 2.94 0 0 1-.846 2.086l1.069 1.053a4.44 4.44 0 0 0 1.277-3.15l-1.5.011Zm-.846 2.086a2.94 2.94 0 0 1-2.072.876l.01 1.5a4.44 4.44 0 0 0 3.13-1.323l-1.068-1.053Zm-2.067.876H9.163v1.5h6.674v-1.5Zm-7.04.096-3.664 2.053.734 1.308 3.663-2.053-.734-1.308ZM6.25 19V8.717h-1.5V19h1.5Zm0-10.289a2.94 2.94 0 0 1 .846-2.085L6.028 5.573a4.44 4.44 0 0 0-1.278 3.15l1.5-.012Zm.846-2.085a2.94 2.94 0 0 1 2.073-.876l-.011-1.5a4.44 4.44 0 0 0-3.13 1.323l1.068 1.053Z"
+															/>
+														</svg>
+														222
+													</span>
+													<span class="news-list__item-category">Видео</span>
+													<span class="news-list__item-author"></span>
+												</footer>
+											</div>
+										</li>
+
+										<li class="news-list__item news-list__item--date">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Импортозамещение в закупках: возможности и риски
+												</p>
+												<footer>
+													<span class="news-list__item-date">
+														<span>8</span>
+														июля
+													</span>
+													<span class="news-list__item-comments">
+														<svg
+															xmlns="http://www.w3.org/2000/svg"
+															width="22"
+															height="22"
+															fill="none"
+															viewBox="0 -0.5 25 25"
+														>
+															<path
+																fill="#999"
+																d="M9 8.517a.75.75 0 0 0 0 1.5v-1.5Zm7 1.5a.75.75 0 0 0 0-1.5v1.5Zm-6.125 1.059a.75.75 0 0 0 0 1.5v-1.5Zm5.25 1.5a.75.75 0 0 0 0-1.5v1.5ZM9.163 5v-.75h-.005l.005.75Zm6.675 0 .006-.75h-.006V5ZM19.5 8.717l-.75-.006v.006h.75Zm0 4.513h-.75v.005l.75-.005Zm-1.062 2.617-.534-.526.534.526Zm-2.6 1.1v.75h.005l-.006-.75Zm-6.675 0v-.75a.75.75 0 0 0-.367.096l.367.654ZM5.5 19h-.75a.75.75 0 0 0 1.117.654L5.5 19Zm0-10.283h.75v-.006l-.75.006ZM6.562 6.1l-.534-.527.534.527ZM9 10.017h7v-1.5H9v1.5Zm.875 2.559h5.25v-1.5h-5.25v1.5ZM9.163 5.75h6.675v-1.5H9.163v1.5Zm6.67 0a2.94 2.94 0 0 1 2.917 2.961l1.5.012a4.44 4.44 0 0 0-4.406-4.473l-.012 1.5Zm2.917 2.967v4.513h1.5V8.717h-1.5Zm0 4.518a2.94 2.94 0 0 1-.846 2.086l1.069 1.053a4.44 4.44 0 0 0 1.277-3.15l-1.5.011Zm-.846 2.086a2.94 2.94 0 0 1-2.072.876l.01 1.5a4.44 4.44 0 0 0 3.13-1.323l-1.068-1.053Zm-2.067.876H9.163v1.5h6.674v-1.5Zm-7.04.096-3.664 2.053.734 1.308 3.663-2.053-.734-1.308ZM6.25 19V8.717h-1.5V19h1.5Zm0-10.289a2.94 2.94 0 0 1 .846-2.085L6.028 5.573a4.44 4.44 0 0 0-1.278 3.15l1.5-.012Zm.846-2.085a2.94 2.94 0 0 1 2.073-.876l-.011-1.5a4.44 4.44 0 0 0-3.13 1.323l1.068 1.053Z"
+															/>
+														</svg>
+														2
+													</span>
+													<span class="news-list__item-category"></span>
+													<span class="news-list__item-author"></span>
+												</footer>
+											</div>
+										</li>
+									</ul>
+								</li>
+
+								<li role="tabpanel" id="group-3">
+									<ul class="news-list__list">
+										<li class="news-list__item">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Что такое российскость товара
+													<br />
+													в закупках
+												</p>
+												<footer>
+													<span class="news-list__item-date">11 июля</span>
+													<span class="news-list__item-comments"></span>
+													<span class="news-list__item-category">Нацрежим</span>
+													<span class="news-list__item-author">
+														<img
+															src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+															alt=""
+														/>
+														Павел Мойсеенко
+													</span>
+												</footer>
+											</div>
+										</li>
+
+										<li class="news-list__item">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Новости за июнь: привлечение субподрядчиков,
+													требования к независимой гарантии и отказ в оплате
+													контракта
+												</p>
+												<footer>
+													<span class="news-list__item-date">10 июля</span>
+													<span class="news-list__item-comments"></span>
+													<span class="news-list__item-category">Видео</span>
+													<span class="news-list__item-author"></span>
+												</footer>
+											</div>
+										</li>
+
+										<li class="news-list__item">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Нацрежим: история, настоящее, будущее
+												</p>
+												<footer>
+													<span class="news-list__item-date">9 июля</span>
+													<span class="news-list__item-comments"></span>
+													<span class="news-list__item-category">Нацрежим</span>
+													<span class="news-list__item-author"></span>
+												</footer>
+											</div>
+										</li>
+
+										<li class="news-list__item">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Как подать запрос
+													<br />
+													на разъяснения по 44-ФЗ
+												</p>
+												<footer>
+													<span class="news-list__item-date">10 июля</span>
+													<span class="news-list__item-comments">
+														<svg
+															xmlns="http://www.w3.org/2000/svg"
+															width="22"
+															height="22"
+															fill="none"
+															viewBox="0 -0.5 25 25"
+														>
+															<path
+																fill="#999"
+																d="M9 8.517a.75.75 0 0 0 0 1.5v-1.5Zm7 1.5a.75.75 0 0 0 0-1.5v1.5Zm-6.125 1.059a.75.75 0 0 0 0 1.5v-1.5Zm5.25 1.5a.75.75 0 0 0 0-1.5v1.5ZM9.163 5v-.75h-.005l.005.75Zm6.675 0 .006-.75h-.006V5ZM19.5 8.717l-.75-.006v.006h.75Zm0 4.513h-.75v.005l.75-.005Zm-1.062 2.617-.534-.526.534.526Zm-2.6 1.1v.75h.005l-.006-.75Zm-6.675 0v-.75a.75.75 0 0 0-.367.096l.367.654ZM5.5 19h-.75a.75.75 0 0 0 1.117.654L5.5 19Zm0-10.283h.75v-.006l-.75.006ZM6.562 6.1l-.534-.527.534.527ZM9 10.017h7v-1.5H9v1.5Zm.875 2.559h5.25v-1.5h-5.25v1.5ZM9.163 5.75h6.675v-1.5H9.163v1.5Zm6.67 0a2.94 2.94 0 0 1 2.917 2.961l1.5.012a4.44 4.44 0 0 0-4.406-4.473l-.012 1.5Zm2.917 2.967v4.513h1.5V8.717h-1.5Zm0 4.518a2.94 2.94 0 0 1-.846 2.086l1.069 1.053a4.44 4.44 0 0 0 1.277-3.15l-1.5.011Zm-.846 2.086a2.94 2.94 0 0 1-2.072.876l.01 1.5a4.44 4.44 0 0 0 3.13-1.323l-1.068-1.053Zm-2.067.876H9.163v1.5h6.674v-1.5Zm-7.04.096-3.664 2.053.734 1.308 3.663-2.053-.734-1.308ZM6.25 19V8.717h-1.5V19h1.5Zm0-10.289a2.94 2.94 0 0 1 .846-2.085L6.028 5.573a4.44 4.44 0 0 0-1.278 3.15l1.5-.012Zm.846-2.085a2.94 2.94 0 0 1 2.073-.876l-.011-1.5a4.44 4.44 0 0 0-3.13 1.323l1.068 1.053Z"
+															/>
+														</svg>
+														222
+													</span>
+													<span class="news-list__item-category">Видео</span>
+													<span class="news-list__item-author"></span>
+												</footer>
+											</div>
+										</li>
+
+										<li class="news-list__item">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Как подать запрос
+													<br />
+													на разъяснения по 44-ФЗ
+												</p>
+												<footer>
+													<span class="news-list__item-date">10 июля</span>
+													<span class="news-list__item-comments">
+														<svg
+															xmlns="http://www.w3.org/2000/svg"
+															width="22"
+															height="22"
+															fill="none"
+															viewBox="0 -0.5 25 25"
+														>
+															<path
+																fill="#999"
+																d="M9 8.517a.75.75 0 0 0 0 1.5v-1.5Zm7 1.5a.75.75 0 0 0 0-1.5v1.5Zm-6.125 1.059a.75.75 0 0 0 0 1.5v-1.5Zm5.25 1.5a.75.75 0 0 0 0-1.5v1.5ZM9.163 5v-.75h-.005l.005.75Zm6.675 0 .006-.75h-.006V5ZM19.5 8.717l-.75-.006v.006h.75Zm0 4.513h-.75v.005l.75-.005Zm-1.062 2.617-.534-.526.534.526Zm-2.6 1.1v.75h.005l-.006-.75Zm-6.675 0v-.75a.75.75 0 0 0-.367.096l.367.654ZM5.5 19h-.75a.75.75 0 0 0 1.117.654L5.5 19Zm0-10.283h.75v-.006l-.75.006ZM6.562 6.1l-.534-.527.534.527ZM9 10.017h7v-1.5H9v1.5Zm.875 2.559h5.25v-1.5h-5.25v1.5ZM9.163 5.75h6.675v-1.5H9.163v1.5Zm6.67 0a2.94 2.94 0 0 1 2.917 2.961l1.5.012a4.44 4.44 0 0 0-4.406-4.473l-.012 1.5Zm2.917 2.967v4.513h1.5V8.717h-1.5Zm0 4.518a2.94 2.94 0 0 1-.846 2.086l1.069 1.053a4.44 4.44 0 0 0 1.277-3.15l-1.5.011Zm-.846 2.086a2.94 2.94 0 0 1-2.072.876l.01 1.5a4.44 4.44 0 0 0 3.13-1.323l-1.068-1.053Zm-2.067.876H9.163v1.5h6.674v-1.5Zm-7.04.096-3.664 2.053.734 1.308 3.663-2.053-.734-1.308ZM6.25 19V8.717h-1.5V19h1.5Zm0-10.289a2.94 2.94 0 0 1 .846-2.085L6.028 5.573a4.44 4.44 0 0 0-1.278 3.15l1.5-.012Zm.846-2.085a2.94 2.94 0 0 1 2.073-.876l-.011-1.5a4.44 4.44 0 0 0-3.13 1.323l1.068 1.053Z"
+															/>
+														</svg>
+														222
+													</span>
+													<span class="news-list__item-category">Видео</span>
+													<span class="news-list__item-author"></span>
+												</footer>
+											</div>
+										</li>
+
+										<li class="news-list__item news-list__item--date">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Импортозамещение в закупках: возможности и риски
+												</p>
+												<footer>
+													<span class="news-list__item-date">
+														<span>8</span>
+														июля
+													</span>
+													<span class="news-list__item-comments">
+														<svg
+															xmlns="http://www.w3.org/2000/svg"
+															width="22"
+															height="22"
+															fill="none"
+															viewBox="0 -0.5 25 25"
+														>
+															<path
+																fill="#999"
+																d="M9 8.517a.75.75 0 0 0 0 1.5v-1.5Zm7 1.5a.75.75 0 0 0 0-1.5v1.5Zm-6.125 1.059a.75.75 0 0 0 0 1.5v-1.5Zm5.25 1.5a.75.75 0 0 0 0-1.5v1.5ZM9.163 5v-.75h-.005l.005.75Zm6.675 0 .006-.75h-.006V5ZM19.5 8.717l-.75-.006v.006h.75Zm0 4.513h-.75v.005l.75-.005Zm-1.062 2.617-.534-.526.534.526Zm-2.6 1.1v.75h.005l-.006-.75Zm-6.675 0v-.75a.75.75 0 0 0-.367.096l.367.654ZM5.5 19h-.75a.75.75 0 0 0 1.117.654L5.5 19Zm0-10.283h.75v-.006l-.75.006ZM6.562 6.1l-.534-.527.534.527ZM9 10.017h7v-1.5H9v1.5Zm.875 2.559h5.25v-1.5h-5.25v1.5ZM9.163 5.75h6.675v-1.5H9.163v1.5Zm6.67 0a2.94 2.94 0 0 1 2.917 2.961l1.5.012a4.44 4.44 0 0 0-4.406-4.473l-.012 1.5Zm2.917 2.967v4.513h1.5V8.717h-1.5Zm0 4.518a2.94 2.94 0 0 1-.846 2.086l1.069 1.053a4.44 4.44 0 0 0 1.277-3.15l-1.5.011Zm-.846 2.086a2.94 2.94 0 0 1-2.072.876l.01 1.5a4.44 4.44 0 0 0 3.13-1.323l-1.068-1.053Zm-2.067.876H9.163v1.5h6.674v-1.5Zm-7.04.096-3.664 2.053.734 1.308 3.663-2.053-.734-1.308ZM6.25 19V8.717h-1.5V19h1.5Zm0-10.289a2.94 2.94 0 0 1 .846-2.085L6.028 5.573a4.44 4.44 0 0 0-1.278 3.15l1.5-.012Zm.846-2.085a2.94 2.94 0 0 1 2.073-.876l-.011-1.5a4.44 4.44 0 0 0-3.13 1.323l1.068 1.053Z"
+															/>
+														</svg>
+														2
+													</span>
+													<span class="news-list__item-category"></span>
+													<span class="news-list__item-author"></span>
+												</footer>
+											</div>
+										</li>
+									</ul>
+								</li>
+
+								<li role="tabpanel" id="group-4">
+									<ul class="news-list__list">
+										<li class="news-list__item">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Что такое российскость товара
+													<br />
+													в закупках
+												</p>
+												<footer>
+													<span class="news-list__item-date">11 июля</span>
+													<span class="news-list__item-comments"></span>
+													<span class="news-list__item-category">Нацрежим</span>
+													<span class="news-list__item-author">
+														<img
+															src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+															alt=""
+														/>
+														Павел Мойсеенко
+													</span>
+												</footer>
+											</div>
+										</li>
+
+										<li class="news-list__item">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Новости за июнь: привлечение субподрядчиков,
+													требования к независимой гарантии и отказ в оплате
+													контракта
+												</p>
+												<footer>
+													<span class="news-list__item-date">10 июля</span>
+													<span class="news-list__item-comments"></span>
+													<span class="news-list__item-category">Видео</span>
+													<span class="news-list__item-author"></span>
+												</footer>
+											</div>
+										</li>
+
+										<li class="news-list__item">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Нацрежим: история, настоящее, будущее
+												</p>
+												<footer>
+													<span class="news-list__item-date">9 июля</span>
+													<span class="news-list__item-comments"></span>
+													<span class="news-list__item-category">Нацрежим</span>
+													<span class="news-list__item-author"></span>
+												</footer>
+											</div>
+										</li>
+
+										<li class="news-list__item">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Как подать запрос
+													<br />
+													на разъяснения по 44-ФЗ
+												</p>
+												<footer>
+													<span class="news-list__item-date">10 июля</span>
+													<span class="news-list__item-comments">
+														<svg
+															xmlns="http://www.w3.org/2000/svg"
+															width="22"
+															height="22"
+															fill="none"
+															viewBox="0 -0.5 25 25"
+														>
+															<path
+																fill="#999"
+																d="M9 8.517a.75.75 0 0 0 0 1.5v-1.5Zm7 1.5a.75.75 0 0 0 0-1.5v1.5Zm-6.125 1.059a.75.75 0 0 0 0 1.5v-1.5Zm5.25 1.5a.75.75 0 0 0 0-1.5v1.5ZM9.163 5v-.75h-.005l.005.75Zm6.675 0 .006-.75h-.006V5ZM19.5 8.717l-.75-.006v.006h.75Zm0 4.513h-.75v.005l.75-.005Zm-1.062 2.617-.534-.526.534.526Zm-2.6 1.1v.75h.005l-.006-.75Zm-6.675 0v-.75a.75.75 0 0 0-.367.096l.367.654ZM5.5 19h-.75a.75.75 0 0 0 1.117.654L5.5 19Zm0-10.283h.75v-.006l-.75.006ZM6.562 6.1l-.534-.527.534.527ZM9 10.017h7v-1.5H9v1.5Zm.875 2.559h5.25v-1.5h-5.25v1.5ZM9.163 5.75h6.675v-1.5H9.163v1.5Zm6.67 0a2.94 2.94 0 0 1 2.917 2.961l1.5.012a4.44 4.44 0 0 0-4.406-4.473l-.012 1.5Zm2.917 2.967v4.513h1.5V8.717h-1.5Zm0 4.518a2.94 2.94 0 0 1-.846 2.086l1.069 1.053a4.44 4.44 0 0 0 1.277-3.15l-1.5.011Zm-.846 2.086a2.94 2.94 0 0 1-2.072.876l.01 1.5a4.44 4.44 0 0 0 3.13-1.323l-1.068-1.053Zm-2.067.876H9.163v1.5h6.674v-1.5Zm-7.04.096-3.664 2.053.734 1.308 3.663-2.053-.734-1.308ZM6.25 19V8.717h-1.5V19h1.5Zm0-10.289a2.94 2.94 0 0 1 .846-2.085L6.028 5.573a4.44 4.44 0 0 0-1.278 3.15l1.5-.012Zm.846-2.085a2.94 2.94 0 0 1 2.073-.876l-.011-1.5a4.44 4.44 0 0 0-3.13 1.323l1.068 1.053Z"
+															/>
+														</svg>
+														222
+													</span>
+													<span class="news-list__item-category">Видео</span>
+													<span class="news-list__item-author"></span>
+												</footer>
+											</div>
+										</li>
+
+										<li class="news-list__item">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Как подать запрос
+													<br />
+													на разъяснения по 44-ФЗ
+												</p>
+												<footer>
+													<span class="news-list__item-date">10 июля</span>
+													<span class="news-list__item-comments">
+														<svg
+															xmlns="http://www.w3.org/2000/svg"
+															width="22"
+															height="22"
+															fill="none"
+															viewBox="0 -0.5 25 25"
+														>
+															<path
+																fill="#999"
+																d="M9 8.517a.75.75 0 0 0 0 1.5v-1.5Zm7 1.5a.75.75 0 0 0 0-1.5v1.5Zm-6.125 1.059a.75.75 0 0 0 0 1.5v-1.5Zm5.25 1.5a.75.75 0 0 0 0-1.5v1.5ZM9.163 5v-.75h-.005l.005.75Zm6.675 0 .006-.75h-.006V5ZM19.5 8.717l-.75-.006v.006h.75Zm0 4.513h-.75v.005l.75-.005Zm-1.062 2.617-.534-.526.534.526Zm-2.6 1.1v.75h.005l-.006-.75Zm-6.675 0v-.75a.75.75 0 0 0-.367.096l.367.654ZM5.5 19h-.75a.75.75 0 0 0 1.117.654L5.5 19Zm0-10.283h.75v-.006l-.75.006ZM6.562 6.1l-.534-.527.534.527ZM9 10.017h7v-1.5H9v1.5Zm.875 2.559h5.25v-1.5h-5.25v1.5ZM9.163 5.75h6.675v-1.5H9.163v1.5Zm6.67 0a2.94 2.94 0 0 1 2.917 2.961l1.5.012a4.44 4.44 0 0 0-4.406-4.473l-.012 1.5Zm2.917 2.967v4.513h1.5V8.717h-1.5Zm0 4.518a2.94 2.94 0 0 1-.846 2.086l1.069 1.053a4.44 4.44 0 0 0 1.277-3.15l-1.5.011Zm-.846 2.086a2.94 2.94 0 0 1-2.072.876l.01 1.5a4.44 4.44 0 0 0 3.13-1.323l-1.068-1.053Zm-2.067.876H9.163v1.5h6.674v-1.5Zm-7.04.096-3.664 2.053.734 1.308 3.663-2.053-.734-1.308ZM6.25 19V8.717h-1.5V19h1.5Zm0-10.289a2.94 2.94 0 0 1 .846-2.085L6.028 5.573a4.44 4.44 0 0 0-1.278 3.15l1.5-.012Zm.846-2.085a2.94 2.94 0 0 1 2.073-.876l-.011-1.5a4.44 4.44 0 0 0-3.13 1.323l1.068 1.053Z"
+															/>
+														</svg>
+														222
+													</span>
+													<span class="news-list__item-category">Видео</span>
+													<span class="news-list__item-author"></span>
+												</footer>
+											</div>
+										</li>
+
+										<li class="news-list__item news-list__item--date">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Импортозамещение в закупках: возможности и риски
+												</p>
+												<footer>
+													<span class="news-list__item-date">
+														<span>8</span>
+														июля
+													</span>
+													<span class="news-list__item-comments">
+														<svg
+															xmlns="http://www.w3.org/2000/svg"
+															width="22"
+															height="22"
+															fill="none"
+															viewBox="0 -0.5 25 25"
+														>
+															<path
+																fill="#999"
+																d="M9 8.517a.75.75 0 0 0 0 1.5v-1.5Zm7 1.5a.75.75 0 0 0 0-1.5v1.5Zm-6.125 1.059a.75.75 0 0 0 0 1.5v-1.5Zm5.25 1.5a.75.75 0 0 0 0-1.5v1.5ZM9.163 5v-.75h-.005l.005.75Zm6.675 0 .006-.75h-.006V5ZM19.5 8.717l-.75-.006v.006h.75Zm0 4.513h-.75v.005l.75-.005Zm-1.062 2.617-.534-.526.534.526Zm-2.6 1.1v.75h.005l-.006-.75Zm-6.675 0v-.75a.75.75 0 0 0-.367.096l.367.654ZM5.5 19h-.75a.75.75 0 0 0 1.117.654L5.5 19Zm0-10.283h.75v-.006l-.75.006ZM6.562 6.1l-.534-.527.534.527ZM9 10.017h7v-1.5H9v1.5Zm.875 2.559h5.25v-1.5h-5.25v1.5ZM9.163 5.75h6.675v-1.5H9.163v1.5Zm6.67 0a2.94 2.94 0 0 1 2.917 2.961l1.5.012a4.44 4.44 0 0 0-4.406-4.473l-.012 1.5Zm2.917 2.967v4.513h1.5V8.717h-1.5Zm0 4.518a2.94 2.94 0 0 1-.846 2.086l1.069 1.053a4.44 4.44 0 0 0 1.277-3.15l-1.5.011Zm-.846 2.086a2.94 2.94 0 0 1-2.072.876l.01 1.5a4.44 4.44 0 0 0 3.13-1.323l-1.068-1.053Zm-2.067.876H9.163v1.5h6.674v-1.5Zm-7.04.096-3.664 2.053.734 1.308 3.663-2.053-.734-1.308ZM6.25 19V8.717h-1.5V19h1.5Zm0-10.289a2.94 2.94 0 0 1 .846-2.085L6.028 5.573a4.44 4.44 0 0 0-1.278 3.15l1.5-.012Zm.846-2.085a2.94 2.94 0 0 1 2.073-.876l-.011-1.5a4.44 4.44 0 0 0-3.13 1.323l1.068 1.053Z"
+															/>
+														</svg>
+														2
+													</span>
+													<span class="news-list__item-category"></span>
+													<span class="news-list__item-author"></span>
+												</footer>
+											</div>
+										</li>
+									</ul>
+								</li>
+
+								<li role="tabpanel" id="group-5">
+									<ul class="news-list__list">
+										<li class="news-list__item">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Что такое российскость товара
+													<br />
+													в закупках
+												</p>
+												<footer>
+													<span class="news-list__item-date">11 июля</span>
+													<span class="news-list__item-comments"></span>
+													<span class="news-list__item-category">Нацрежим</span>
+													<span class="news-list__item-author">
+														<img
+															src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+															alt=""
+														/>
+														Павел Мойсеенко
+													</span>
+												</footer>
+											</div>
+										</li>
+
+										<li class="news-list__item">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Новости за июнь: привлечение субподрядчиков,
+													требования к независимой гарантии и отказ в оплате
+													контракта
+												</p>
+												<footer>
+													<span class="news-list__item-date">10 июля</span>
+													<span class="news-list__item-comments"></span>
+													<span class="news-list__item-category">Видео</span>
+													<span class="news-list__item-author"></span>
+												</footer>
+											</div>
+										</li>
+
+										<li class="news-list__item">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Нацрежим: история, настоящее, будущее
+												</p>
+												<footer>
+													<span class="news-list__item-date">9 июля</span>
+													<span class="news-list__item-comments"></span>
+													<span class="news-list__item-category">Нацрежим</span>
+													<span class="news-list__item-author"></span>
+												</footer>
+											</div>
+										</li>
+
+										<li class="news-list__item">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Как подать запрос
+													<br />
+													на разъяснения по 44-ФЗ
+												</p>
+												<footer>
+													<span class="news-list__item-date">10 июля</span>
+													<span class="news-list__item-comments">
+														<svg
+															xmlns="http://www.w3.org/2000/svg"
+															width="22"
+															height="22"
+															fill="none"
+															viewBox="0 -0.5 25 25"
+														>
+															<path
+																fill="#999"
+																d="M9 8.517a.75.75 0 0 0 0 1.5v-1.5Zm7 1.5a.75.75 0 0 0 0-1.5v1.5Zm-6.125 1.059a.75.75 0 0 0 0 1.5v-1.5Zm5.25 1.5a.75.75 0 0 0 0-1.5v1.5ZM9.163 5v-.75h-.005l.005.75Zm6.675 0 .006-.75h-.006V5ZM19.5 8.717l-.75-.006v.006h.75Zm0 4.513h-.75v.005l.75-.005Zm-1.062 2.617-.534-.526.534.526Zm-2.6 1.1v.75h.005l-.006-.75Zm-6.675 0v-.75a.75.75 0 0 0-.367.096l.367.654ZM5.5 19h-.75a.75.75 0 0 0 1.117.654L5.5 19Zm0-10.283h.75v-.006l-.75.006ZM6.562 6.1l-.534-.527.534.527ZM9 10.017h7v-1.5H9v1.5Zm.875 2.559h5.25v-1.5h-5.25v1.5ZM9.163 5.75h6.675v-1.5H9.163v1.5Zm6.67 0a2.94 2.94 0 0 1 2.917 2.961l1.5.012a4.44 4.44 0 0 0-4.406-4.473l-.012 1.5Zm2.917 2.967v4.513h1.5V8.717h-1.5Zm0 4.518a2.94 2.94 0 0 1-.846 2.086l1.069 1.053a4.44 4.44 0 0 0 1.277-3.15l-1.5.011Zm-.846 2.086a2.94 2.94 0 0 1-2.072.876l.01 1.5a4.44 4.44 0 0 0 3.13-1.323l-1.068-1.053Zm-2.067.876H9.163v1.5h6.674v-1.5Zm-7.04.096-3.664 2.053.734 1.308 3.663-2.053-.734-1.308ZM6.25 19V8.717h-1.5V19h1.5Zm0-10.289a2.94 2.94 0 0 1 .846-2.085L6.028 5.573a4.44 4.44 0 0 0-1.278 3.15l1.5-.012Zm.846-2.085a2.94 2.94 0 0 1 2.073-.876l-.011-1.5a4.44 4.44 0 0 0-3.13 1.323l1.068 1.053Z"
+															/>
+														</svg>
+														222
+													</span>
+													<span class="news-list__item-category">Видео</span>
+													<span class="news-list__item-author"></span>
+												</footer>
+											</div>
+										</li>
+
+										<li class="news-list__item">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Как подать запрос
+													<br />
+													на разъяснения по 44-ФЗ
+												</p>
+												<footer>
+													<span class="news-list__item-date">10 июля</span>
+													<span class="news-list__item-comments">
+														<svg
+															xmlns="http://www.w3.org/2000/svg"
+															width="22"
+															height="22"
+															fill="none"
+															viewBox="0 -0.5 25 25"
+														>
+															<path
+																fill="#999"
+																d="M9 8.517a.75.75 0 0 0 0 1.5v-1.5Zm7 1.5a.75.75 0 0 0 0-1.5v1.5Zm-6.125 1.059a.75.75 0 0 0 0 1.5v-1.5Zm5.25 1.5a.75.75 0 0 0 0-1.5v1.5ZM9.163 5v-.75h-.005l.005.75Zm6.675 0 .006-.75h-.006V5ZM19.5 8.717l-.75-.006v.006h.75Zm0 4.513h-.75v.005l.75-.005Zm-1.062 2.617-.534-.526.534.526Zm-2.6 1.1v.75h.005l-.006-.75Zm-6.675 0v-.75a.75.75 0 0 0-.367.096l.367.654ZM5.5 19h-.75a.75.75 0 0 0 1.117.654L5.5 19Zm0-10.283h.75v-.006l-.75.006ZM6.562 6.1l-.534-.527.534.527ZM9 10.017h7v-1.5H9v1.5Zm.875 2.559h5.25v-1.5h-5.25v1.5ZM9.163 5.75h6.675v-1.5H9.163v1.5Zm6.67 0a2.94 2.94 0 0 1 2.917 2.961l1.5.012a4.44 4.44 0 0 0-4.406-4.473l-.012 1.5Zm2.917 2.967v4.513h1.5V8.717h-1.5Zm0 4.518a2.94 2.94 0 0 1-.846 2.086l1.069 1.053a4.44 4.44 0 0 0 1.277-3.15l-1.5.011Zm-.846 2.086a2.94 2.94 0 0 1-2.072.876l.01 1.5a4.44 4.44 0 0 0 3.13-1.323l-1.068-1.053Zm-2.067.876H9.163v1.5h6.674v-1.5Zm-7.04.096-3.664 2.053.734 1.308 3.663-2.053-.734-1.308ZM6.25 19V8.717h-1.5V19h1.5Zm0-10.289a2.94 2.94 0 0 1 .846-2.085L6.028 5.573a4.44 4.44 0 0 0-1.278 3.15l1.5-.012Zm.846-2.085a2.94 2.94 0 0 1 2.073-.876l-.011-1.5a4.44 4.44 0 0 0-3.13 1.323l1.068 1.053Z"
+															/>
+														</svg>
+														222
+													</span>
+													<span class="news-list__item-category">Видео</span>
+													<span class="news-list__item-author"></span>
+												</footer>
+											</div>
+										</li>
+
+										<li class="news-list__item news-list__item--date">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Импортозамещение в закупках: возможности и риски
+												</p>
+												<footer>
+													<span class="news-list__item-date">
+														<span>8</span>
+														июля
+													</span>
+													<span class="news-list__item-comments">
+														<svg
+															xmlns="http://www.w3.org/2000/svg"
+															width="22"
+															height="22"
+															fill="none"
+															viewBox="0 -0.5 25 25"
+														>
+															<path
+																fill="#999"
+																d="M9 8.517a.75.75 0 0 0 0 1.5v-1.5Zm7 1.5a.75.75 0 0 0 0-1.5v1.5Zm-6.125 1.059a.75.75 0 0 0 0 1.5v-1.5Zm5.25 1.5a.75.75 0 0 0 0-1.5v1.5ZM9.163 5v-.75h-.005l.005.75Zm6.675 0 .006-.75h-.006V5ZM19.5 8.717l-.75-.006v.006h.75Zm0 4.513h-.75v.005l.75-.005Zm-1.062 2.617-.534-.526.534.526Zm-2.6 1.1v.75h.005l-.006-.75Zm-6.675 0v-.75a.75.75 0 0 0-.367.096l.367.654ZM5.5 19h-.75a.75.75 0 0 0 1.117.654L5.5 19Zm0-10.283h.75v-.006l-.75.006ZM6.562 6.1l-.534-.527.534.527ZM9 10.017h7v-1.5H9v1.5Zm.875 2.559h5.25v-1.5h-5.25v1.5ZM9.163 5.75h6.675v-1.5H9.163v1.5Zm6.67 0a2.94 2.94 0 0 1 2.917 2.961l1.5.012a4.44 4.44 0 0 0-4.406-4.473l-.012 1.5Zm2.917 2.967v4.513h1.5V8.717h-1.5Zm0 4.518a2.94 2.94 0 0 1-.846 2.086l1.069 1.053a4.44 4.44 0 0 0 1.277-3.15l-1.5.011Zm-.846 2.086a2.94 2.94 0 0 1-2.072.876l.01 1.5a4.44 4.44 0 0 0 3.13-1.323l-1.068-1.053Zm-2.067.876H9.163v1.5h6.674v-1.5Zm-7.04.096-3.664 2.053.734 1.308 3.663-2.053-.734-1.308ZM6.25 19V8.717h-1.5V19h1.5Zm0-10.289a2.94 2.94 0 0 1 .846-2.085L6.028 5.573a4.44 4.44 0 0 0-1.278 3.15l1.5-.012Zm.846-2.085a2.94 2.94 0 0 1 2.073-.876l-.011-1.5a4.44 4.44 0 0 0-3.13 1.323l1.068 1.053Z"
+															/>
+														</svg>
+														2
+													</span>
+													<span class="news-list__item-category"></span>
+													<span class="news-list__item-author"></span>
+												</footer>
+											</div>
+										</li>
+									</ul>
+								</li>
+
+								<li role="tabpanel" id="group-6">
+									<ul class="news-list__list">
+										<li class="news-list__item">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Что такое российскость товара
+													<br />
+													в закупках
+												</p>
+												<footer>
+													<span class="news-list__item-date">11 июля</span>
+													<span class="news-list__item-comments"></span>
+													<span class="news-list__item-category">Нацрежим</span>
+													<span class="news-list__item-author">
+														<img
+															src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+															alt=""
+														/>
+														Павел Мойсеенко
+													</span>
+												</footer>
+											</div>
+										</li>
+
+										<li class="news-list__item">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Новости за июнь: привлечение субподрядчиков,
+													требования к независимой гарантии и отказ в оплате
+													контракта
+												</p>
+												<footer>
+													<span class="news-list__item-date">10 июля</span>
+													<span class="news-list__item-comments"></span>
+													<span class="news-list__item-category">Видео</span>
+													<span class="news-list__item-author"></span>
+												</footer>
+											</div>
+										</li>
+
+										<li class="news-list__item">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Нацрежим: история, настоящее, будущее
+												</p>
+												<footer>
+													<span class="news-list__item-date">9 июля</span>
+													<span class="news-list__item-comments"></span>
+													<span class="news-list__item-category">Нацрежим</span>
+													<span class="news-list__item-author"></span>
+												</footer>
+											</div>
+										</li>
+
+										<li class="news-list__item">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Как подать запрос
+													<br />
+													на разъяснения по 44-ФЗ
+												</p>
+												<footer>
+													<span class="news-list__item-date">10 июля</span>
+													<span class="news-list__item-comments">
+														<svg
+															xmlns="http://www.w3.org/2000/svg"
+															width="22"
+															height="22"
+															fill="none"
+															viewBox="0 -0.5 25 25"
+														>
+															<path
+																fill="#999"
+																d="M9 8.517a.75.75 0 0 0 0 1.5v-1.5Zm7 1.5a.75.75 0 0 0 0-1.5v1.5Zm-6.125 1.059a.75.75 0 0 0 0 1.5v-1.5Zm5.25 1.5a.75.75 0 0 0 0-1.5v1.5ZM9.163 5v-.75h-.005l.005.75Zm6.675 0 .006-.75h-.006V5ZM19.5 8.717l-.75-.006v.006h.75Zm0 4.513h-.75v.005l.75-.005Zm-1.062 2.617-.534-.526.534.526Zm-2.6 1.1v.75h.005l-.006-.75Zm-6.675 0v-.75a.75.75 0 0 0-.367.096l.367.654ZM5.5 19h-.75a.75.75 0 0 0 1.117.654L5.5 19Zm0-10.283h.75v-.006l-.75.006ZM6.562 6.1l-.534-.527.534.527ZM9 10.017h7v-1.5H9v1.5Zm.875 2.559h5.25v-1.5h-5.25v1.5ZM9.163 5.75h6.675v-1.5H9.163v1.5Zm6.67 0a2.94 2.94 0 0 1 2.917 2.961l1.5.012a4.44 4.44 0 0 0-4.406-4.473l-.012 1.5Zm2.917 2.967v4.513h1.5V8.717h-1.5Zm0 4.518a2.94 2.94 0 0 1-.846 2.086l1.069 1.053a4.44 4.44 0 0 0 1.277-3.15l-1.5.011Zm-.846 2.086a2.94 2.94 0 0 1-2.072.876l.01 1.5a4.44 4.44 0 0 0 3.13-1.323l-1.068-1.053Zm-2.067.876H9.163v1.5h6.674v-1.5Zm-7.04.096-3.664 2.053.734 1.308 3.663-2.053-.734-1.308ZM6.25 19V8.717h-1.5V19h1.5Zm0-10.289a2.94 2.94 0 0 1 .846-2.085L6.028 5.573a4.44 4.44 0 0 0-1.278 3.15l1.5-.012Zm.846-2.085a2.94 2.94 0 0 1 2.073-.876l-.011-1.5a4.44 4.44 0 0 0-3.13 1.323l1.068 1.053Z"
+															/>
+														</svg>
+														222
+													</span>
+													<span class="news-list__item-category">Видео</span>
+													<span class="news-list__item-author"></span>
+												</footer>
+											</div>
+										</li>
+
+										<li class="news-list__item">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Как подать запрос
+													<br />
+													на разъяснения по 44-ФЗ
+												</p>
+												<footer>
+													<span class="news-list__item-date">10 июля</span>
+													<span class="news-list__item-comments">
+														<svg
+															xmlns="http://www.w3.org/2000/svg"
+															width="22"
+															height="22"
+															fill="none"
+															viewBox="0 -0.5 25 25"
+														>
+															<path
+																fill="#999"
+																d="M9 8.517a.75.75 0 0 0 0 1.5v-1.5Zm7 1.5a.75.75 0 0 0 0-1.5v1.5Zm-6.125 1.059a.75.75 0 0 0 0 1.5v-1.5Zm5.25 1.5a.75.75 0 0 0 0-1.5v1.5ZM9.163 5v-.75h-.005l.005.75Zm6.675 0 .006-.75h-.006V5ZM19.5 8.717l-.75-.006v.006h.75Zm0 4.513h-.75v.005l.75-.005Zm-1.062 2.617-.534-.526.534.526Zm-2.6 1.1v.75h.005l-.006-.75Zm-6.675 0v-.75a.75.75 0 0 0-.367.096l.367.654ZM5.5 19h-.75a.75.75 0 0 0 1.117.654L5.5 19Zm0-10.283h.75v-.006l-.75.006ZM6.562 6.1l-.534-.527.534.527ZM9 10.017h7v-1.5H9v1.5Zm.875 2.559h5.25v-1.5h-5.25v1.5ZM9.163 5.75h6.675v-1.5H9.163v1.5Zm6.67 0a2.94 2.94 0 0 1 2.917 2.961l1.5.012a4.44 4.44 0 0 0-4.406-4.473l-.012 1.5Zm2.917 2.967v4.513h1.5V8.717h-1.5Zm0 4.518a2.94 2.94 0 0 1-.846 2.086l1.069 1.053a4.44 4.44 0 0 0 1.277-3.15l-1.5.011Zm-.846 2.086a2.94 2.94 0 0 1-2.072.876l.01 1.5a4.44 4.44 0 0 0 3.13-1.323l-1.068-1.053Zm-2.067.876H9.163v1.5h6.674v-1.5Zm-7.04.096-3.664 2.053.734 1.308 3.663-2.053-.734-1.308ZM6.25 19V8.717h-1.5V19h1.5Zm0-10.289a2.94 2.94 0 0 1 .846-2.085L6.028 5.573a4.44 4.44 0 0 0-1.278 3.15l1.5-.012Zm.846-2.085a2.94 2.94 0 0 1 2.073-.876l-.011-1.5a4.44 4.44 0 0 0-3.13 1.323l1.068 1.053Z"
+															/>
+														</svg>
+														222
+													</span>
+													<span class="news-list__item-category">Видео</span>
+													<span class="news-list__item-author"></span>
+												</footer>
+											</div>
+										</li>
+
+										<li class="news-list__item news-list__item--date">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Импортозамещение в закупках: возможности и риски
+												</p>
+												<footer>
+													<span class="news-list__item-date">
+														<span>8</span>
+														июля
+													</span>
+													<span class="news-list__item-comments">
+														<svg
+															xmlns="http://www.w3.org/2000/svg"
+															width="22"
+															height="22"
+															fill="none"
+															viewBox="0 -0.5 25 25"
+														>
+															<path
+																fill="#999"
+																d="M9 8.517a.75.75 0 0 0 0 1.5v-1.5Zm7 1.5a.75.75 0 0 0 0-1.5v1.5Zm-6.125 1.059a.75.75 0 0 0 0 1.5v-1.5Zm5.25 1.5a.75.75 0 0 0 0-1.5v1.5ZM9.163 5v-.75h-.005l.005.75Zm6.675 0 .006-.75h-.006V5ZM19.5 8.717l-.75-.006v.006h.75Zm0 4.513h-.75v.005l.75-.005Zm-1.062 2.617-.534-.526.534.526Zm-2.6 1.1v.75h.005l-.006-.75Zm-6.675 0v-.75a.75.75 0 0 0-.367.096l.367.654ZM5.5 19h-.75a.75.75 0 0 0 1.117.654L5.5 19Zm0-10.283h.75v-.006l-.75.006ZM6.562 6.1l-.534-.527.534.527ZM9 10.017h7v-1.5H9v1.5Zm.875 2.559h5.25v-1.5h-5.25v1.5ZM9.163 5.75h6.675v-1.5H9.163v1.5Zm6.67 0a2.94 2.94 0 0 1 2.917 2.961l1.5.012a4.44 4.44 0 0 0-4.406-4.473l-.012 1.5Zm2.917 2.967v4.513h1.5V8.717h-1.5Zm0 4.518a2.94 2.94 0 0 1-.846 2.086l1.069 1.053a4.44 4.44 0 0 0 1.277-3.15l-1.5.011Zm-.846 2.086a2.94 2.94 0 0 1-2.072.876l.01 1.5a4.44 4.44 0 0 0 3.13-1.323l-1.068-1.053Zm-2.067.876H9.163v1.5h6.674v-1.5Zm-7.04.096-3.664 2.053.734 1.308 3.663-2.053-.734-1.308ZM6.25 19V8.717h-1.5V19h1.5Zm0-10.289a2.94 2.94 0 0 1 .846-2.085L6.028 5.573a4.44 4.44 0 0 0-1.278 3.15l1.5-.012Zm.846-2.085a2.94 2.94 0 0 1 2.073-.876l-.011-1.5a4.44 4.44 0 0 0-3.13 1.323l1.068 1.053Z"
+															/>
+														</svg>
+														2
+													</span>
+													<span class="news-list__item-category"></span>
+													<span class="news-list__item-author"></span>
+												</footer>
+											</div>
+										</li>
+									</ul>
+								</li>
+
+								<li role="tabpanel" id="group-7">
+									<ul class="news-list__list">
+										<li class="news-list__item">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Что такое российскость товара
+													<br />
+													в закупках
+												</p>
+												<footer>
+													<span class="news-list__item-date">11 июля</span>
+													<span class="news-list__item-comments"></span>
+													<span class="news-list__item-category">Нацрежим</span>
+													<span class="news-list__item-author">
+														<img
+															src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+															alt=""
+														/>
+														Павел Мойсеенко
+													</span>
+												</footer>
+											</div>
+										</li>
+
+										<li class="news-list__item">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Новости за июнь: привлечение субподрядчиков,
+													требования к независимой гарантии и отказ в оплате
+													контракта
+												</p>
+												<footer>
+													<span class="news-list__item-date">10 июля</span>
+													<span class="news-list__item-comments"></span>
+													<span class="news-list__item-category">Видео</span>
+													<span class="news-list__item-author"></span>
+												</footer>
+											</div>
+										</li>
+
+										<li class="news-list__item">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Нацрежим: история, настоящее, будущее
+												</p>
+												<footer>
+													<span class="news-list__item-date">9 июля</span>
+													<span class="news-list__item-comments"></span>
+													<span class="news-list__item-category">Нацрежим</span>
+													<span class="news-list__item-author"></span>
+												</footer>
+											</div>
+										</li>
+
+										<li class="news-list__item">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Как подать запрос
+													<br />
+													на разъяснения по 44-ФЗ
+												</p>
+												<footer>
+													<span class="news-list__item-date">10 июля</span>
+													<span class="news-list__item-comments">
+														<svg
+															xmlns="http://www.w3.org/2000/svg"
+															width="22"
+															height="22"
+															fill="none"
+															viewBox="0 -0.5 25 25"
+														>
+															<path
+																fill="#999"
+																d="M9 8.517a.75.75 0 0 0 0 1.5v-1.5Zm7 1.5a.75.75 0 0 0 0-1.5v1.5Zm-6.125 1.059a.75.75 0 0 0 0 1.5v-1.5Zm5.25 1.5a.75.75 0 0 0 0-1.5v1.5ZM9.163 5v-.75h-.005l.005.75Zm6.675 0 .006-.75h-.006V5ZM19.5 8.717l-.75-.006v.006h.75Zm0 4.513h-.75v.005l.75-.005Zm-1.062 2.617-.534-.526.534.526Zm-2.6 1.1v.75h.005l-.006-.75Zm-6.675 0v-.75a.75.75 0 0 0-.367.096l.367.654ZM5.5 19h-.75a.75.75 0 0 0 1.117.654L5.5 19Zm0-10.283h.75v-.006l-.75.006ZM6.562 6.1l-.534-.527.534.527ZM9 10.017h7v-1.5H9v1.5Zm.875 2.559h5.25v-1.5h-5.25v1.5ZM9.163 5.75h6.675v-1.5H9.163v1.5Zm6.67 0a2.94 2.94 0 0 1 2.917 2.961l1.5.012a4.44 4.44 0 0 0-4.406-4.473l-.012 1.5Zm2.917 2.967v4.513h1.5V8.717h-1.5Zm0 4.518a2.94 2.94 0 0 1-.846 2.086l1.069 1.053a4.44 4.44 0 0 0 1.277-3.15l-1.5.011Zm-.846 2.086a2.94 2.94 0 0 1-2.072.876l.01 1.5a4.44 4.44 0 0 0 3.13-1.323l-1.068-1.053Zm-2.067.876H9.163v1.5h6.674v-1.5Zm-7.04.096-3.664 2.053.734 1.308 3.663-2.053-.734-1.308ZM6.25 19V8.717h-1.5V19h1.5Zm0-10.289a2.94 2.94 0 0 1 .846-2.085L6.028 5.573a4.44 4.44 0 0 0-1.278 3.15l1.5-.012Zm.846-2.085a2.94 2.94 0 0 1 2.073-.876l-.011-1.5a4.44 4.44 0 0 0-3.13 1.323l1.068 1.053Z"
+															/>
+														</svg>
+														222
+													</span>
+													<span class="news-list__item-category">Видео</span>
+													<span class="news-list__item-author"></span>
+												</footer>
+											</div>
+										</li>
+
+										<li class="news-list__item">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Как подать запрос
+													<br />
+													на разъяснения по 44-ФЗ
+												</p>
+												<footer>
+													<span class="news-list__item-date">10 июля</span>
+													<span class="news-list__item-comments">
+														<svg
+															xmlns="http://www.w3.org/2000/svg"
+															width="22"
+															height="22"
+															fill="none"
+															viewBox="0 -0.5 25 25"
+														>
+															<path
+																fill="#999"
+																d="M9 8.517a.75.75 0 0 0 0 1.5v-1.5Zm7 1.5a.75.75 0 0 0 0-1.5v1.5Zm-6.125 1.059a.75.75 0 0 0 0 1.5v-1.5Zm5.25 1.5a.75.75 0 0 0 0-1.5v1.5ZM9.163 5v-.75h-.005l.005.75Zm6.675 0 .006-.75h-.006V5ZM19.5 8.717l-.75-.006v.006h.75Zm0 4.513h-.75v.005l.75-.005Zm-1.062 2.617-.534-.526.534.526Zm-2.6 1.1v.75h.005l-.006-.75Zm-6.675 0v-.75a.75.75 0 0 0-.367.096l.367.654ZM5.5 19h-.75a.75.75 0 0 0 1.117.654L5.5 19Zm0-10.283h.75v-.006l-.75.006ZM6.562 6.1l-.534-.527.534.527ZM9 10.017h7v-1.5H9v1.5Zm.875 2.559h5.25v-1.5h-5.25v1.5ZM9.163 5.75h6.675v-1.5H9.163v1.5Zm6.67 0a2.94 2.94 0 0 1 2.917 2.961l1.5.012a4.44 4.44 0 0 0-4.406-4.473l-.012 1.5Zm2.917 2.967v4.513h1.5V8.717h-1.5Zm0 4.518a2.94 2.94 0 0 1-.846 2.086l1.069 1.053a4.44 4.44 0 0 0 1.277-3.15l-1.5.011Zm-.846 2.086a2.94 2.94 0 0 1-2.072.876l.01 1.5a4.44 4.44 0 0 0 3.13-1.323l-1.068-1.053Zm-2.067.876H9.163v1.5h6.674v-1.5Zm-7.04.096-3.664 2.053.734 1.308 3.663-2.053-.734-1.308ZM6.25 19V8.717h-1.5V19h1.5Zm0-10.289a2.94 2.94 0 0 1 .846-2.085L6.028 5.573a4.44 4.44 0 0 0-1.278 3.15l1.5-.012Zm.846-2.085a2.94 2.94 0 0 1 2.073-.876l-.011-1.5a4.44 4.44 0 0 0-3.13 1.323l1.068 1.053Z"
+															/>
+														</svg>
+														222
+													</span>
+													<span class="news-list__item-category">Видео</span>
+													<span class="news-list__item-author"></span>
+												</footer>
+											</div>
+										</li>
+
+										<li class="news-list__item news-list__item--date">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Импортозамещение в закупках: возможности и риски
+												</p>
+												<footer>
+													<span class="news-list__item-date">
+														<span>8</span>
+														июля
+													</span>
+													<span class="news-list__item-comments">
+														<svg
+															xmlns="http://www.w3.org/2000/svg"
+															width="22"
+															height="22"
+															fill="none"
+															viewBox="0 -0.5 25 25"
+														>
+															<path
+																fill="#999"
+																d="M9 8.517a.75.75 0 0 0 0 1.5v-1.5Zm7 1.5a.75.75 0 0 0 0-1.5v1.5Zm-6.125 1.059a.75.75 0 0 0 0 1.5v-1.5Zm5.25 1.5a.75.75 0 0 0 0-1.5v1.5ZM9.163 5v-.75h-.005l.005.75Zm6.675 0 .006-.75h-.006V5ZM19.5 8.717l-.75-.006v.006h.75Zm0 4.513h-.75v.005l.75-.005Zm-1.062 2.617-.534-.526.534.526Zm-2.6 1.1v.75h.005l-.006-.75Zm-6.675 0v-.75a.75.75 0 0 0-.367.096l.367.654ZM5.5 19h-.75a.75.75 0 0 0 1.117.654L5.5 19Zm0-10.283h.75v-.006l-.75.006ZM6.562 6.1l-.534-.527.534.527ZM9 10.017h7v-1.5H9v1.5Zm.875 2.559h5.25v-1.5h-5.25v1.5ZM9.163 5.75h6.675v-1.5H9.163v1.5Zm6.67 0a2.94 2.94 0 0 1 2.917 2.961l1.5.012a4.44 4.44 0 0 0-4.406-4.473l-.012 1.5Zm2.917 2.967v4.513h1.5V8.717h-1.5Zm0 4.518a2.94 2.94 0 0 1-.846 2.086l1.069 1.053a4.44 4.44 0 0 0 1.277-3.15l-1.5.011Zm-.846 2.086a2.94 2.94 0 0 1-2.072.876l.01 1.5a4.44 4.44 0 0 0 3.13-1.323l-1.068-1.053Zm-2.067.876H9.163v1.5h6.674v-1.5Zm-7.04.096-3.664 2.053.734 1.308 3.663-2.053-.734-1.308ZM6.25 19V8.717h-1.5V19h1.5Zm0-10.289a2.94 2.94 0 0 1 .846-2.085L6.028 5.573a4.44 4.44 0 0 0-1.278 3.15l1.5-.012Zm.846-2.085a2.94 2.94 0 0 1 2.073-.876l-.011-1.5a4.44 4.44 0 0 0-3.13 1.323l1.068 1.053Z"
+															/>
+														</svg>
+														2
+													</span>
+													<span class="news-list__item-category"></span>
+													<span class="news-list__item-author"></span>
+												</footer>
+											</div>
+										</li>
+									</ul>
+								</li>
+
+								<li role="tabpanel" id="group-8">
+									<ul class="news-list__list">
+										<li class="news-list__item">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Что такое российскость товара
+													<br />
+													в закупках
+												</p>
+												<footer>
+													<span class="news-list__item-date">11 июля</span>
+													<span class="news-list__item-comments"></span>
+													<span class="news-list__item-category">Нацрежим</span>
+													<span class="news-list__item-author">
+														<img
+															src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+															alt=""
+														/>
+														Павел Мойсеенко
+													</span>
+												</footer>
+											</div>
+										</li>
+
+										<li class="news-list__item">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Новости за июнь: привлечение субподрядчиков,
+													требования к независимой гарантии и отказ в оплате
+													контракта
+												</p>
+												<footer>
+													<span class="news-list__item-date">10 июля</span>
+													<span class="news-list__item-comments"></span>
+													<span class="news-list__item-category">Видео</span>
+													<span class="news-list__item-author"></span>
+												</footer>
+											</div>
+										</li>
+
+										<li class="news-list__item">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Нацрежим: история, настоящее, будущее
+												</p>
+												<footer>
+													<span class="news-list__item-date">9 июля</span>
+													<span class="news-list__item-comments"></span>
+													<span class="news-list__item-category">Нацрежим</span>
+													<span class="news-list__item-author"></span>
+												</footer>
+											</div>
+										</li>
+
+										<li class="news-list__item">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Как подать запрос
+													<br />
+													на разъяснения по 44-ФЗ
+												</p>
+												<footer>
+													<span class="news-list__item-date">10 июля</span>
+													<span class="news-list__item-comments">
+														<svg
+															xmlns="http://www.w3.org/2000/svg"
+															width="22"
+															height="22"
+															fill="none"
+															viewBox="0 -0.5 25 25"
+														>
+															<path
+																fill="#999"
+																d="M9 8.517a.75.75 0 0 0 0 1.5v-1.5Zm7 1.5a.75.75 0 0 0 0-1.5v1.5Zm-6.125 1.059a.75.75 0 0 0 0 1.5v-1.5Zm5.25 1.5a.75.75 0 0 0 0-1.5v1.5ZM9.163 5v-.75h-.005l.005.75Zm6.675 0 .006-.75h-.006V5ZM19.5 8.717l-.75-.006v.006h.75Zm0 4.513h-.75v.005l.75-.005Zm-1.062 2.617-.534-.526.534.526Zm-2.6 1.1v.75h.005l-.006-.75Zm-6.675 0v-.75a.75.75 0 0 0-.367.096l.367.654ZM5.5 19h-.75a.75.75 0 0 0 1.117.654L5.5 19Zm0-10.283h.75v-.006l-.75.006ZM6.562 6.1l-.534-.527.534.527ZM9 10.017h7v-1.5H9v1.5Zm.875 2.559h5.25v-1.5h-5.25v1.5ZM9.163 5.75h6.675v-1.5H9.163v1.5Zm6.67 0a2.94 2.94 0 0 1 2.917 2.961l1.5.012a4.44 4.44 0 0 0-4.406-4.473l-.012 1.5Zm2.917 2.967v4.513h1.5V8.717h-1.5Zm0 4.518a2.94 2.94 0 0 1-.846 2.086l1.069 1.053a4.44 4.44 0 0 0 1.277-3.15l-1.5.011Zm-.846 2.086a2.94 2.94 0 0 1-2.072.876l.01 1.5a4.44 4.44 0 0 0 3.13-1.323l-1.068-1.053Zm-2.067.876H9.163v1.5h6.674v-1.5Zm-7.04.096-3.664 2.053.734 1.308 3.663-2.053-.734-1.308ZM6.25 19V8.717h-1.5V19h1.5Zm0-10.289a2.94 2.94 0 0 1 .846-2.085L6.028 5.573a4.44 4.44 0 0 0-1.278 3.15l1.5-.012Zm.846-2.085a2.94 2.94 0 0 1 2.073-.876l-.011-1.5a4.44 4.44 0 0 0-3.13 1.323l1.068 1.053Z"
+															/>
+														</svg>
+														222
+													</span>
+													<span class="news-list__item-category">Видео</span>
+													<span class="news-list__item-author"></span>
+												</footer>
+											</div>
+										</li>
+
+										<li class="news-list__item">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Как подать запрос
+													<br />
+													на разъяснения по 44-ФЗ
+												</p>
+												<footer>
+													<span class="news-list__item-date">10 июля</span>
+													<span class="news-list__item-comments">
+														<svg
+															xmlns="http://www.w3.org/2000/svg"
+															width="22"
+															height="22"
+															fill="none"
+															viewBox="0 -0.5 25 25"
+														>
+															<path
+																fill="#999"
+																d="M9 8.517a.75.75 0 0 0 0 1.5v-1.5Zm7 1.5a.75.75 0 0 0 0-1.5v1.5Zm-6.125 1.059a.75.75 0 0 0 0 1.5v-1.5Zm5.25 1.5a.75.75 0 0 0 0-1.5v1.5ZM9.163 5v-.75h-.005l.005.75Zm6.675 0 .006-.75h-.006V5ZM19.5 8.717l-.75-.006v.006h.75Zm0 4.513h-.75v.005l.75-.005Zm-1.062 2.617-.534-.526.534.526Zm-2.6 1.1v.75h.005l-.006-.75Zm-6.675 0v-.75a.75.75 0 0 0-.367.096l.367.654ZM5.5 19h-.75a.75.75 0 0 0 1.117.654L5.5 19Zm0-10.283h.75v-.006l-.75.006ZM6.562 6.1l-.534-.527.534.527ZM9 10.017h7v-1.5H9v1.5Zm.875 2.559h5.25v-1.5h-5.25v1.5ZM9.163 5.75h6.675v-1.5H9.163v1.5Zm6.67 0a2.94 2.94 0 0 1 2.917 2.961l1.5.012a4.44 4.44 0 0 0-4.406-4.473l-.012 1.5Zm2.917 2.967v4.513h1.5V8.717h-1.5Zm0 4.518a2.94 2.94 0 0 1-.846 2.086l1.069 1.053a4.44 4.44 0 0 0 1.277-3.15l-1.5.011Zm-.846 2.086a2.94 2.94 0 0 1-2.072.876l.01 1.5a4.44 4.44 0 0 0 3.13-1.323l-1.068-1.053Zm-2.067.876H9.163v1.5h6.674v-1.5Zm-7.04.096-3.664 2.053.734 1.308 3.663-2.053-.734-1.308ZM6.25 19V8.717h-1.5V19h1.5Zm0-10.289a2.94 2.94 0 0 1 .846-2.085L6.028 5.573a4.44 4.44 0 0 0-1.278 3.15l1.5-.012Zm.846-2.085a2.94 2.94 0 0 1 2.073-.876l-.011-1.5a4.44 4.44 0 0 0-3.13 1.323l1.068 1.053Z"
+															/>
+														</svg>
+														222
+													</span>
+													<span class="news-list__item-category">Видео</span>
+													<span class="news-list__item-author"></span>
+												</footer>
+											</div>
+										</li>
+
+										<li class="news-list__item news-list__item--date">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Импортозамещение в закупках: возможности и риски
+												</p>
+												<footer>
+													<span class="news-list__item-date">
+														<span>8</span>
+														июля
+													</span>
+													<span class="news-list__item-comments">
+														<svg
+															xmlns="http://www.w3.org/2000/svg"
+															width="22"
+															height="22"
+															fill="none"
+															viewBox="0 -0.5 25 25"
+														>
+															<path
+																fill="#999"
+																d="M9 8.517a.75.75 0 0 0 0 1.5v-1.5Zm7 1.5a.75.75 0 0 0 0-1.5v1.5Zm-6.125 1.059a.75.75 0 0 0 0 1.5v-1.5Zm5.25 1.5a.75.75 0 0 0 0-1.5v1.5ZM9.163 5v-.75h-.005l.005.75Zm6.675 0 .006-.75h-.006V5ZM19.5 8.717l-.75-.006v.006h.75Zm0 4.513h-.75v.005l.75-.005Zm-1.062 2.617-.534-.526.534.526Zm-2.6 1.1v.75h.005l-.006-.75Zm-6.675 0v-.75a.75.75 0 0 0-.367.096l.367.654ZM5.5 19h-.75a.75.75 0 0 0 1.117.654L5.5 19Zm0-10.283h.75v-.006l-.75.006ZM6.562 6.1l-.534-.527.534.527ZM9 10.017h7v-1.5H9v1.5Zm.875 2.559h5.25v-1.5h-5.25v1.5ZM9.163 5.75h6.675v-1.5H9.163v1.5Zm6.67 0a2.94 2.94 0 0 1 2.917 2.961l1.5.012a4.44 4.44 0 0 0-4.406-4.473l-.012 1.5Zm2.917 2.967v4.513h1.5V8.717h-1.5Zm0 4.518a2.94 2.94 0 0 1-.846 2.086l1.069 1.053a4.44 4.44 0 0 0 1.277-3.15l-1.5.011Zm-.846 2.086a2.94 2.94 0 0 1-2.072.876l.01 1.5a4.44 4.44 0 0 0 3.13-1.323l-1.068-1.053Zm-2.067.876H9.163v1.5h6.674v-1.5Zm-7.04.096-3.664 2.053.734 1.308 3.663-2.053-.734-1.308ZM6.25 19V8.717h-1.5V19h1.5Zm0-10.289a2.94 2.94 0 0 1 .846-2.085L6.028 5.573a4.44 4.44 0 0 0-1.278 3.15l1.5-.012Zm.846-2.085a2.94 2.94 0 0 1 2.073-.876l-.011-1.5a4.44 4.44 0 0 0-3.13 1.323l1.068 1.053Z"
+															/>
+														</svg>
+														2
+													</span>
+													<span class="news-list__item-category"></span>
+													<span class="news-list__item-author"></span>
+												</footer>
+											</div>
+										</li>
+									</ul>
+								</li>
+
+								<li role="tabpanel" id="group-9">
+									<ul class="news-list__list">
+										<li class="news-list__item">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Что такое российскость товара
+													<br />
+													в закупках
+												</p>
+												<footer>
+													<span class="news-list__item-date">11 июля</span>
+													<span class="news-list__item-comments"></span>
+													<span class="news-list__item-category">Нацрежим</span>
+													<span class="news-list__item-author">
+														<img
+															src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+															alt=""
+														/>
+														Павел Мойсеенко
+													</span>
+												</footer>
+											</div>
+										</li>
+
+										<li class="news-list__item">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Новости за июнь: привлечение субподрядчиков,
+													требования к независимой гарантии и отказ в оплате
+													контракта
+												</p>
+												<footer>
+													<span class="news-list__item-date">10 июля</span>
+													<span class="news-list__item-comments"></span>
+													<span class="news-list__item-category">Видео</span>
+													<span class="news-list__item-author"></span>
+												</footer>
+											</div>
+										</li>
+
+										<li class="news-list__item">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Нацрежим: история, настоящее, будущее
+												</p>
+												<footer>
+													<span class="news-list__item-date">9 июля</span>
+													<span class="news-list__item-comments"></span>
+													<span class="news-list__item-category">Нацрежим</span>
+													<span class="news-list__item-author"></span>
+												</footer>
+											</div>
+										</li>
+
+										<li class="news-list__item">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Как подать запрос
+													<br />
+													на разъяснения по 44-ФЗ
+												</p>
+												<footer>
+													<span class="news-list__item-date">10 июля</span>
+													<span class="news-list__item-comments">
+														<svg
+															xmlns="http://www.w3.org/2000/svg"
+															width="22"
+															height="22"
+															fill="none"
+															viewBox="0 -0.5 25 25"
+														>
+															<path
+																fill="#999"
+																d="M9 8.517a.75.75 0 0 0 0 1.5v-1.5Zm7 1.5a.75.75 0 0 0 0-1.5v1.5Zm-6.125 1.059a.75.75 0 0 0 0 1.5v-1.5Zm5.25 1.5a.75.75 0 0 0 0-1.5v1.5ZM9.163 5v-.75h-.005l.005.75Zm6.675 0 .006-.75h-.006V5ZM19.5 8.717l-.75-.006v.006h.75Zm0 4.513h-.75v.005l.75-.005Zm-1.062 2.617-.534-.526.534.526Zm-2.6 1.1v.75h.005l-.006-.75Zm-6.675 0v-.75a.75.75 0 0 0-.367.096l.367.654ZM5.5 19h-.75a.75.75 0 0 0 1.117.654L5.5 19Zm0-10.283h.75v-.006l-.75.006ZM6.562 6.1l-.534-.527.534.527ZM9 10.017h7v-1.5H9v1.5Zm.875 2.559h5.25v-1.5h-5.25v1.5ZM9.163 5.75h6.675v-1.5H9.163v1.5Zm6.67 0a2.94 2.94 0 0 1 2.917 2.961l1.5.012a4.44 4.44 0 0 0-4.406-4.473l-.012 1.5Zm2.917 2.967v4.513h1.5V8.717h-1.5Zm0 4.518a2.94 2.94 0 0 1-.846 2.086l1.069 1.053a4.44 4.44 0 0 0 1.277-3.15l-1.5.011Zm-.846 2.086a2.94 2.94 0 0 1-2.072.876l.01 1.5a4.44 4.44 0 0 0 3.13-1.323l-1.068-1.053Zm-2.067.876H9.163v1.5h6.674v-1.5Zm-7.04.096-3.664 2.053.734 1.308 3.663-2.053-.734-1.308ZM6.25 19V8.717h-1.5V19h1.5Zm0-10.289a2.94 2.94 0 0 1 .846-2.085L6.028 5.573a4.44 4.44 0 0 0-1.278 3.15l1.5-.012Zm.846-2.085a2.94 2.94 0 0 1 2.073-.876l-.011-1.5a4.44 4.44 0 0 0-3.13 1.323l1.068 1.053Z"
+															/>
+														</svg>
+														222
+													</span>
+													<span class="news-list__item-category">Видео</span>
+													<span class="news-list__item-author"></span>
+												</footer>
+											</div>
+										</li>
+
+										<li class="news-list__item">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Как подать запрос
+													<br />
+													на разъяснения по 44-ФЗ
+												</p>
+												<footer>
+													<span class="news-list__item-date">10 июля</span>
+													<span class="news-list__item-comments">
+														<svg
+															xmlns="http://www.w3.org/2000/svg"
+															width="22"
+															height="22"
+															fill="none"
+															viewBox="0 -0.5 25 25"
+														>
+															<path
+																fill="#999"
+																d="M9 8.517a.75.75 0 0 0 0 1.5v-1.5Zm7 1.5a.75.75 0 0 0 0-1.5v1.5Zm-6.125 1.059a.75.75 0 0 0 0 1.5v-1.5Zm5.25 1.5a.75.75 0 0 0 0-1.5v1.5ZM9.163 5v-.75h-.005l.005.75Zm6.675 0 .006-.75h-.006V5ZM19.5 8.717l-.75-.006v.006h.75Zm0 4.513h-.75v.005l.75-.005Zm-1.062 2.617-.534-.526.534.526Zm-2.6 1.1v.75h.005l-.006-.75Zm-6.675 0v-.75a.75.75 0 0 0-.367.096l.367.654ZM5.5 19h-.75a.75.75 0 0 0 1.117.654L5.5 19Zm0-10.283h.75v-.006l-.75.006ZM6.562 6.1l-.534-.527.534.527ZM9 10.017h7v-1.5H9v1.5Zm.875 2.559h5.25v-1.5h-5.25v1.5ZM9.163 5.75h6.675v-1.5H9.163v1.5Zm6.67 0a2.94 2.94 0 0 1 2.917 2.961l1.5.012a4.44 4.44 0 0 0-4.406-4.473l-.012 1.5Zm2.917 2.967v4.513h1.5V8.717h-1.5Zm0 4.518a2.94 2.94 0 0 1-.846 2.086l1.069 1.053a4.44 4.44 0 0 0 1.277-3.15l-1.5.011Zm-.846 2.086a2.94 2.94 0 0 1-2.072.876l.01 1.5a4.44 4.44 0 0 0 3.13-1.323l-1.068-1.053Zm-2.067.876H9.163v1.5h6.674v-1.5Zm-7.04.096-3.664 2.053.734 1.308 3.663-2.053-.734-1.308ZM6.25 19V8.717h-1.5V19h1.5Zm0-10.289a2.94 2.94 0 0 1 .846-2.085L6.028 5.573a4.44 4.44 0 0 0-1.278 3.15l1.5-.012Zm.846-2.085a2.94 2.94 0 0 1 2.073-.876l-.011-1.5a4.44 4.44 0 0 0-3.13 1.323l1.068 1.053Z"
+															/>
+														</svg>
+														222
+													</span>
+													<span class="news-list__item-category">Видео</span>
+													<span class="news-list__item-author"></span>
+												</footer>
+											</div>
+										</li>
+
+										<li class="news-list__item news-list__item--date">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Импортозамещение в закупках: возможности и риски
+												</p>
+												<footer>
+													<span class="news-list__item-date">
+														<span>8</span>
+														июля
+													</span>
+													<span class="news-list__item-comments">
+														<svg
+															xmlns="http://www.w3.org/2000/svg"
+															width="22"
+															height="22"
+															fill="none"
+															viewBox="0 -0.5 25 25"
+														>
+															<path
+																fill="#999"
+																d="M9 8.517a.75.75 0 0 0 0 1.5v-1.5Zm7 1.5a.75.75 0 0 0 0-1.5v1.5Zm-6.125 1.059a.75.75 0 0 0 0 1.5v-1.5Zm5.25 1.5a.75.75 0 0 0 0-1.5v1.5ZM9.163 5v-.75h-.005l.005.75Zm6.675 0 .006-.75h-.006V5ZM19.5 8.717l-.75-.006v.006h.75Zm0 4.513h-.75v.005l.75-.005Zm-1.062 2.617-.534-.526.534.526Zm-2.6 1.1v.75h.005l-.006-.75Zm-6.675 0v-.75a.75.75 0 0 0-.367.096l.367.654ZM5.5 19h-.75a.75.75 0 0 0 1.117.654L5.5 19Zm0-10.283h.75v-.006l-.75.006ZM6.562 6.1l-.534-.527.534.527ZM9 10.017h7v-1.5H9v1.5Zm.875 2.559h5.25v-1.5h-5.25v1.5ZM9.163 5.75h6.675v-1.5H9.163v1.5Zm6.67 0a2.94 2.94 0 0 1 2.917 2.961l1.5.012a4.44 4.44 0 0 0-4.406-4.473l-.012 1.5Zm2.917 2.967v4.513h1.5V8.717h-1.5Zm0 4.518a2.94 2.94 0 0 1-.846 2.086l1.069 1.053a4.44 4.44 0 0 0 1.277-3.15l-1.5.011Zm-.846 2.086a2.94 2.94 0 0 1-2.072.876l.01 1.5a4.44 4.44 0 0 0 3.13-1.323l-1.068-1.053Zm-2.067.876H9.163v1.5h6.674v-1.5Zm-7.04.096-3.664 2.053.734 1.308 3.663-2.053-.734-1.308ZM6.25 19V8.717h-1.5V19h1.5Zm0-10.289a2.94 2.94 0 0 1 .846-2.085L6.028 5.573a4.44 4.44 0 0 0-1.278 3.15l1.5-.012Zm.846-2.085a2.94 2.94 0 0 1 2.073-.876l-.011-1.5a4.44 4.44 0 0 0-3.13 1.323l1.068 1.053Z"
+															/>
+														</svg>
+														2
+													</span>
+													<span class="news-list__item-category"></span>
+													<span class="news-list__item-author"></span>
+												</footer>
+											</div>
+										</li>
+									</ul>
+								</li>
+
+								<li role="tabpanel" id="group-10">
+									<ul class="news-list__list">
+										<li class="news-list__item">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Что такое российскость товара
+													<br />
+													в закупках
+												</p>
+												<footer>
+													<span class="news-list__item-date">11 июля</span>
+													<span class="news-list__item-comments"></span>
+													<span class="news-list__item-category">Нацрежим</span>
+													<span class="news-list__item-author">
+														<img
+															src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+															alt=""
+														/>
+														Павел Мойсеенко
+													</span>
+												</footer>
+											</div>
+										</li>
+
+										<li class="news-list__item">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Новости за июнь: привлечение субподрядчиков,
+													требования к независимой гарантии и отказ в оплате
+													контракта
+												</p>
+												<footer>
+													<span class="news-list__item-date">10 июля</span>
+													<span class="news-list__item-comments"></span>
+													<span class="news-list__item-category">Видео</span>
+													<span class="news-list__item-author"></span>
+												</footer>
+											</div>
+										</li>
+
+										<li class="news-list__item">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Нацрежим: история, настоящее, будущее
+												</p>
+												<footer>
+													<span class="news-list__item-date">9 июля</span>
+													<span class="news-list__item-comments"></span>
+													<span class="news-list__item-category">Нацрежим</span>
+													<span class="news-list__item-author"></span>
+												</footer>
+											</div>
+										</li>
+
+										<li class="news-list__item">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Как подать запрос
+													<br />
+													на разъяснения по 44-ФЗ
+												</p>
+												<footer>
+													<span class="news-list__item-date">10 июля</span>
+													<span class="news-list__item-comments">
+														<svg
+															xmlns="http://www.w3.org/2000/svg"
+															width="22"
+															height="22"
+															fill="none"
+															viewBox="0 -0.5 25 25"
+														>
+															<path
+																fill="#999"
+																d="M9 8.517a.75.75 0 0 0 0 1.5v-1.5Zm7 1.5a.75.75 0 0 0 0-1.5v1.5Zm-6.125 1.059a.75.75 0 0 0 0 1.5v-1.5Zm5.25 1.5a.75.75 0 0 0 0-1.5v1.5ZM9.163 5v-.75h-.005l.005.75Zm6.675 0 .006-.75h-.006V5ZM19.5 8.717l-.75-.006v.006h.75Zm0 4.513h-.75v.005l.75-.005Zm-1.062 2.617-.534-.526.534.526Zm-2.6 1.1v.75h.005l-.006-.75Zm-6.675 0v-.75a.75.75 0 0 0-.367.096l.367.654ZM5.5 19h-.75a.75.75 0 0 0 1.117.654L5.5 19Zm0-10.283h.75v-.006l-.75.006ZM6.562 6.1l-.534-.527.534.527ZM9 10.017h7v-1.5H9v1.5Zm.875 2.559h5.25v-1.5h-5.25v1.5ZM9.163 5.75h6.675v-1.5H9.163v1.5Zm6.67 0a2.94 2.94 0 0 1 2.917 2.961l1.5.012a4.44 4.44 0 0 0-4.406-4.473l-.012 1.5Zm2.917 2.967v4.513h1.5V8.717h-1.5Zm0 4.518a2.94 2.94 0 0 1-.846 2.086l1.069 1.053a4.44 4.44 0 0 0 1.277-3.15l-1.5.011Zm-.846 2.086a2.94 2.94 0 0 1-2.072.876l.01 1.5a4.44 4.44 0 0 0 3.13-1.323l-1.068-1.053Zm-2.067.876H9.163v1.5h6.674v-1.5Zm-7.04.096-3.664 2.053.734 1.308 3.663-2.053-.734-1.308ZM6.25 19V8.717h-1.5V19h1.5Zm0-10.289a2.94 2.94 0 0 1 .846-2.085L6.028 5.573a4.44 4.44 0 0 0-1.278 3.15l1.5-.012Zm.846-2.085a2.94 2.94 0 0 1 2.073-.876l-.011-1.5a4.44 4.44 0 0 0-3.13 1.323l1.068 1.053Z"
+															/>
+														</svg>
+														222
+													</span>
+													<span class="news-list__item-category">Видео</span>
+													<span class="news-list__item-author"></span>
+												</footer>
+											</div>
+										</li>
+
+										<li class="news-list__item">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Как подать запрос
+													<br />
+													на разъяснения по 44-ФЗ
+												</p>
+												<footer>
+													<span class="news-list__item-date">10 июля</span>
+													<span class="news-list__item-comments">
+														<svg
+															xmlns="http://www.w3.org/2000/svg"
+															width="22"
+															height="22"
+															fill="none"
+															viewBox="0 -0.5 25 25"
+														>
+															<path
+																fill="#999"
+																d="M9 8.517a.75.75 0 0 0 0 1.5v-1.5Zm7 1.5a.75.75 0 0 0 0-1.5v1.5Zm-6.125 1.059a.75.75 0 0 0 0 1.5v-1.5Zm5.25 1.5a.75.75 0 0 0 0-1.5v1.5ZM9.163 5v-.75h-.005l.005.75Zm6.675 0 .006-.75h-.006V5ZM19.5 8.717l-.75-.006v.006h.75Zm0 4.513h-.75v.005l.75-.005Zm-1.062 2.617-.534-.526.534.526Zm-2.6 1.1v.75h.005l-.006-.75Zm-6.675 0v-.75a.75.75 0 0 0-.367.096l.367.654ZM5.5 19h-.75a.75.75 0 0 0 1.117.654L5.5 19Zm0-10.283h.75v-.006l-.75.006ZM6.562 6.1l-.534-.527.534.527ZM9 10.017h7v-1.5H9v1.5Zm.875 2.559h5.25v-1.5h-5.25v1.5ZM9.163 5.75h6.675v-1.5H9.163v1.5Zm6.67 0a2.94 2.94 0 0 1 2.917 2.961l1.5.012a4.44 4.44 0 0 0-4.406-4.473l-.012 1.5Zm2.917 2.967v4.513h1.5V8.717h-1.5Zm0 4.518a2.94 2.94 0 0 1-.846 2.086l1.069 1.053a4.44 4.44 0 0 0 1.277-3.15l-1.5.011Zm-.846 2.086a2.94 2.94 0 0 1-2.072.876l.01 1.5a4.44 4.44 0 0 0 3.13-1.323l-1.068-1.053Zm-2.067.876H9.163v1.5h6.674v-1.5Zm-7.04.096-3.664 2.053.734 1.308 3.663-2.053-.734-1.308ZM6.25 19V8.717h-1.5V19h1.5Zm0-10.289a2.94 2.94 0 0 1 .846-2.085L6.028 5.573a4.44 4.44 0 0 0-1.278 3.15l1.5-.012Zm.846-2.085a2.94 2.94 0 0 1 2.073-.876l-.011-1.5a4.44 4.44 0 0 0-3.13 1.323l1.068 1.053Z"
+															/>
+														</svg>
+														222
+													</span>
+													<span class="news-list__item-category">Видео</span>
+													<span class="news-list__item-author"></span>
+												</footer>
+											</div>
+										</li>
+
+										<li class="news-list__item news-list__item--date">
+											<div class="news-list__item-img">
+												<img
+													src="https://i.pinimg.com/736x/c7/59/44/c75944b1852d7ac8c17039608c51de82.jpg"
+													alt=""
+												/>
+											</div>
+											<div class="news-list__item-text">
+												<p class="news-list__item-title">
+													Импортозамещение в закупках: возможности и риски
+												</p>
+												<footer>
+													<span class="news-list__item-date">
+														<span>8</span>
+														июля
+													</span>
+													<span class="news-list__item-comments">
+														<svg
+															xmlns="http://www.w3.org/2000/svg"
+															width="22"
+															height="22"
+															fill="none"
+															viewBox="0 -0.5 25 25"
+														>
+															<path
+																fill="#999"
+																d="M9 8.517a.75.75 0 0 0 0 1.5v-1.5Zm7 1.5a.75.75 0 0 0 0-1.5v1.5Zm-6.125 1.059a.75.75 0 0 0 0 1.5v-1.5Zm5.25 1.5a.75.75 0 0 0 0-1.5v1.5ZM9.163 5v-.75h-.005l.005.75Zm6.675 0 .006-.75h-.006V5ZM19.5 8.717l-.75-.006v.006h.75Zm0 4.513h-.75v.005l.75-.005Zm-1.062 2.617-.534-.526.534.526Zm-2.6 1.1v.75h.005l-.006-.75Zm-6.675 0v-.75a.75.75 0 0 0-.367.096l.367.654ZM5.5 19h-.75a.75.75 0 0 0 1.117.654L5.5 19Zm0-10.283h.75v-.006l-.75.006ZM6.562 6.1l-.534-.527.534.527ZM9 10.017h7v-1.5H9v1.5Zm.875 2.559h5.25v-1.5h-5.25v1.5ZM9.163 5.75h6.675v-1.5H9.163v1.5Zm6.67 0a2.94 2.94 0 0 1 2.917 2.961l1.5.012a4.44 4.44 0 0 0-4.406-4.473l-.012 1.5Zm2.917 2.967v4.513h1.5V8.717h-1.5Zm0 4.518a2.94 2.94 0 0 1-.846 2.086l1.069 1.053a4.44 4.44 0 0 0 1.277-3.15l-1.5.011Zm-.846 2.086a2.94 2.94 0 0 1-2.072.876l.01 1.5a4.44 4.44 0 0 0 3.13-1.323l-1.068-1.053Zm-2.067.876H9.163v1.5h6.674v-1.5Zm-7.04.096-3.664 2.053.734 1.308 3.663-2.053-.734-1.308ZM6.25 19V8.717h-1.5V19h1.5Zm0-10.289a2.94 2.94 0 0 1 .846-2.085L6.028 5.573a4.44 4.44 0 0 0-1.278 3.15l1.5-.012Zm.846-2.085a2.94 2.94 0 0 1 2.073-.876l-.011-1.5a4.44 4.44 0 0 0-3.13 1.323l1.068 1.053Z"
+															/>
+														</svg>
+														2
+													</span>
+													<span class="news-list__item-category"></span>
+													<span class="news-list__item-author"></span>
+												</footer>
+											</div>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__inner">
+					<div class="footer__aside">
+						<div class="footer__logo">
+							<img src="img/logo.png" alt="Логотип" />
+						</div>
+						<div class="footer__contacts">
+							<div class="footer__contacts-title">Контакты</div>
+
+							<div class="footer__contacts-name">Адрес:</div>
+							<span class="footer__contacts-info">
+								г. Москва, Строительный проезд, д. 7а к. 12
+							</span>
+
+							<div class="footer__contacts-name">Телефон:</div>
+							<span class="footer__contacts-info">
+								<a href="tel:88005555016">8-800-555-50-16</a>
+							</span>
+
+							<div class="footer__contacts-name">E-mail:</div>
+							<span class="footer__contacts-info">
+								<a href="mailto:info@r-tender.ru">info@r-tender.ru</a>
+							</span>
+						</div>
+						<a class="footer__btn btn" href="#">Связаться с нами</a>
+					</div>
+
+					<div class="footer__content">
+						<div class="footer__menu">
+							<ul class="footer__menu-list">
+								<li class="footer__menu-item">
+									<a href="#">Поиск тендеров</a>
+									<ul>
+										<li><a href="#">Пункт меню</a></li>
+										<li><a href="#">Пункт меню</a></li>
+										<li><a href="#">Пункт меню</a></li>
+										<li><a href="#">Поставщикам</a></li>
+									</ul>
+								</li>
+								<li class="footer__menu-item">
+									<a href="#">Поставщикам</a>
+									<ul>
+										<li><a href="#">Пункт меню</a></li>
+										<li><a href="#">Пункт меню</a></li>
+										<li><a href="#">Пункт меню</a></li>
+										<li><a href="#">Поставщикам</a></li>
+									</ul>
+								</li>
+								<li class="footer__menu-item">
+									<a href="#">Заказчикам</a>
+									<ul>
+										<li><a href="#">Пункт меню</a></li>
+										<li><a href="#">Пункт меню</a></li>
+										<li><a href="#">Пункт меню</a></li>
+										<li><a href="#">Поставщикам</a></li>
+									</ul>
+								</li>
+								<li class="footer__menu-item">
+									<a href="#">Торговый портал</a>
+									<ul>
+										<li><a href="#">Пункт меню</a></li>
+										<li><a href="#">Пункт меню</a></li>
+										<li><a href="#">Пункт меню</a></li>
+										<li><a href="#">Поставщикам</a></li>
+									</ul>
+								</li>
+								<li class="footer__menu-item">
+									<a href="#">Сервис импортозамещения</a>
+									<ul>
+										<li><a href="#">Пункт меню</a></li>
+										<li><a href="#">Пункт меню</a></li>
+										<li><a href="#">Пункт меню</a></li>
+										<li><a href="#">Поставщикам</a></li>
+									</ul>
+								</li>
+								<li class="footer__menu-item">
+									<a href="#">Специализированная ЭТП</a>
+									<ul>
+										<li><a href="#">Пункт меню</a></li>
+										<li><a href="#">Пункт меню</a></li>
+										<li><a href="#">Пункт меню</a></li>
+										<li><a href="#">Поставщикам</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__text">
+							<p>
+								ООО «тендер» использует файлы cookie, с целью персонализации
+								сервисов и повышения удобства пользования веб-сайтом. «Cookie»
+								представляют собой небольшие файлы, содержащие информацию о
+								предыдущих посещениях веб-сайта. Продолжая использовать наш
+								сайт, вы соглашаетесь, что мы можем использовать файлы cookie.
+								Если вы не хотите использовать файлы «cookie», измените
+								настройки браузера.
+							</p>
+
+							<p>
+								На информационном ресурсе применяются рекомендательные
+								технологии.
+							</p>
+
+							<p>
+								Политика ООО «тендер» в области обработки и обеспечения
+								безопасности персональных данных.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<dialog class="popup" id="popup">
+			<div class="popup__inner">
+				<div class="popup__logo">
+					<img src="img/logo.png" alt="" />
+				</div>
+				<div class="popop__close" onclick="window.popup.close()"></div>
+				<div class="popup__tablist">
+					<ul class="popup__tablist-items" role="tablist">
+						<li role="tab" aria-controls="group-1">Пароль</li>
+						<li role="tab" aria-controls="group-2">Сертификат</li>
+					</ul>
+
+					<ul class="popup__tablist-content">
+						<li role="tabpanel" id="group-1">
+							<div class="popup__authorization authorization">
+								<form class="authorization__form">
+									<label class="authorization__label">
+										<span class="authorization__name">Почта</span>
+										<input class="authorization__input" type="email" />
+									</label>
+
+									<label class="authorization__label">
+										<span class="authorization__name">Пароль</span>
+										<input
+											class="authorization__input"
+											type="password"
+											required
+										/>
+									</label>
+
+									<div class="authorization__row">
+										<label>
+											<input type="checkbox" name="" value="" />
+											<span><span>Запомнить меня</span></span>
+										</label>
+										<a href="#" class="authorization__recover">
+											Забыли пароль?
+										</a>
+									</div>
+
+									<input
+										class="authorization__btn"
+										type="submit"
+										value="Войти"
+									/>
+								</form>
+							</div>
+						</li>
+						<li role="tabpanel" id="group-2">
+							<div class="popup__certificate">
+								<h4>Настройте компьютер</h4>
+								<p>
+									Для работы с сертификатами
+									<a href="#">установите необходимые компоненты.</a>
+								</p>
+								<p>
+									Если не помогло,
+									<a href="#">обратитесь в поддержку.</a>
+								</p>
+								<p>
+									Если вы не пользуетесь входом по сертификату,
+									<a href="#">войдите по паролю.</a>
+								</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+
+				<a class="popup__register" href="#">Зарегистрироваться</a>
+			</div>
+		</dialog>
+
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/tablist.min.js"></script>
+		<script src="js/choices.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>
