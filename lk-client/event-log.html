@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="../css/bootstrap.min.css" rel="stylesheet" />
+		<link href="../css/choices.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="../css/style.css" />
+		<link rel="stylesheet" href="../css/lk.css" />
+		<link rel="stylesheet" href="../css/temp.css" />
+
+		<title>Тендерная площадка</title>
+	</head>
+	<body class="body lk">
+		<div class="newsletter-block">
+			<div class="newsletter-block__items">
+				<p class="newsletter-block__text">
+					Подключи рассылку новых тендеров на почту или в Telegram
+				</p>
+				<a href="#" class="newsletter-block__btn">Попробовать бесплатно</a>
+			</div>
+		</div>
+
+		<main class="lk__main">
+			<section class="lk__favorites-tender">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-3 col-sm-12">
+							<div class="lk__menu lk__block">
+								<div class="header__logo">
+									<img src="../img/logo.png" alt="Логотип" />
+								</div>
+								<nav class="lk__menu-nav">
+									<div class="lk__menu-title">Мои тендеры</div>
+									<ul class="lk__menu-list">
+										<li class="lk__menu-item">
+											<a href="#" class="lk__menu-link">Личные данные</a>
+										</li>
+										<li class="lk__menu-item">
+											<a href="#" class="lk__menu-link lk__menu-link-active">
+												Безопасность
+											</a>
+										</li>
+										<li class="lk__menu-item">
+											<a href="#" class="lk__menu-link">Мои тендеры</a>
+										</li>
+										<li class="lk__menu-item">
+											<a href="#" class="lk__menu-link">Сервисы</a>
+										</li>
+										<li class="lk__menu-item">
+											<a href="#" class="lk__menu-link">Документы</a>
+										</li>
+										<li class="lk__menu-item">
+											<a href="#" class="lk__menu-link">Заказы</a>
+										</li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+						<div class="col-lg-9 col-sm-12 lk__main-content">
+							<div class="lk__main-content-top lk__block">
+								<h1 class="lk__title">Журнал событий</h1>
+								<div
+									class="search-tenders__results search-tenders__results--lk search-tenders__results--register"
+								>
+									<form class="search-tenders__results-search">
+										<div class="search-tenders__results-search-row">
+											<label
+												class="search-tenders__results-search-label search-tenders__results-search-label--third"
+											>
+												<span class="search-tenders__results-search-name">
+													Дата и время начала
+												</span>
+												<input
+													class="search-tenders__results-search-input"
+													type="datetime-local"
+												/>
+											</label>
+
+											<label
+												class="search-tenders__results-search-label search-tenders__results-search-label--third"
+											>
+												<span class="search-tenders__results-search-name">
+													Дата и время окончания
+												</span>
+												<input
+													class="search-tenders__results-search-input"
+													type="datetime-local"
+												/>
+											</label>
+
+											<label
+												class="search-tenders__results-search-label search-tenders__results-search-label--third"
+											>
+												<span class="search-tenders__results-search-name">
+													Тип объекта
+												</span>
+												<input
+													class="search-tenders__results-search-input"
+													type="number"
+													placeholder="Не выбрано"
+												/>
+											</label>
+
+											<label
+												class="search-tenders__results-search-label search-tenders__results-search-label--third"
+											>
+												<span class="search-tenders__results-search-name">
+													Новые объекты события
+												</span>
+												<input
+													class="search-tenders__results-search-input"
+													type="number"
+													placeholder="Не выбрано"
+												/>
+											</label>
+
+											<label
+												class="search-tenders__results-search-label search-tenders__results-search-label--third"
+											>
+												<span class="search-tenders__results-search-name">
+													Тип события
+												</span>
+												<input
+													class="search-tenders__results-search-input"
+													type="number"
+													placeholder="Не выбрано"
+												/>
+											</label>
+
+											<label
+												class="search-tenders__results-search-label search-tenders__results-search-label--third"
+											>
+												<span class="search-tenders__results-search-name">
+													Номер лота
+												</span>
+												<input
+													class="search-tenders__results-search-input"
+													type="number"
+													placeholder="Не выбрано"
+												/>
+											</label>
+										</div>
+										<input
+											class="search-tenders__results-search-btn"
+											type="submit"
+											value="Найти"
+										/>
+									</form>
+
+									<div class="search-results">Результаты поиска</div>
+								</div>
+							</div>
+							<div class="lk__main-content-links">
+								<a href="#">Tender.teen</a>
+								<a href="#">Правовые документы</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<script src="../js/bootstrap.bundle.min.js"></script>
+		<script src="../js/tablist.min.js"></script>
+		<script src="../js/choices.min.js"></script>
+		<script src="../js/script.js"></script>
+	</body>
+</html>
