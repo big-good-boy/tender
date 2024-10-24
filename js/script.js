@@ -82,14 +82,13 @@ document
 		};
 	});
 
-
 // ЛК меню
 
 let lkMenu = document.querySelector('.lk__menu-list');
 let lkMenuBtn = document.querySelector('.lk__menu-title');
 
 lkMenuBtn.addEventListener('click', () => {
-    lkMenu.classList.toggle('open-menu');
+	lkMenu.classList.toggle('open-menu');
 });
 
 // ЛК меню поставщики
@@ -97,9 +96,26 @@ let lkMenuSup = document.querySelector('.lk__menu-hidden');
 let lkMenuBtnSup = document.querySelector('.lk__menu-btn');
 
 lkMenuBtnSup.addEventListener('click', () => {
-    lkMenuSup.classList.add('open-menu');
+	lkMenuSup.classList.add('open-menu');
 	lkMenuBtnSup.style.display = 'none';
 });
 
+// открытие и закрытие попапов в кабинете поставщика
+let modal = (idModal) => {
+	document.querySelector('.overlay').setAttribute('style', 'display:flex');
+	document
+		.getElementById(`${idModal.id}`)
+		.setAttribute('style', 'display:block');
 
-
+	document.addEventListener('click', function (el) {
+		if (
+			el.target.classList.contains('overlay') ||
+			el.target.classList.contains('sup__modal-cancel')
+		) {
+			document.querySelector('.overlay').setAttribute('style', 'display:none');
+			document
+				.getElementById(`${idModal.id}`)
+				.setAttribute('style', 'display:none');
+		}
+	});
+};

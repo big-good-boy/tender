@@ -941,8 +941,6 @@
 	}
 }
 
-
-
 /* ЛК поставщики */
 
 .lk__menu-btn {
@@ -1047,7 +1045,7 @@
 }
 
 .sup__table-btn:hover {
-	opacity: .7;
+	opacity: 0.7;
 }
 
 .sup__import-data,
@@ -1063,7 +1061,7 @@
 }
 
 .sup__table a:hover {
-	opacity: .7;
+	opacity: 0.7;
 }
 
 .sup__visit .sup__table-btn,
@@ -1104,8 +1102,7 @@
 }
 
 .sup__report-file,
-.sup__integration-file
- {
+.sup__integration-file {
 	display: flex;
 	align-items: center;
 	gap: 10px;
@@ -1118,9 +1115,8 @@
 .sup__report-file:hover,
 .sup__integration-file:hover {
 	color: #000;
-	opacity: .7;
+	opacity: 0.7;
 }
-
 
 .sup__descr {
 	margin-top: 16px;
@@ -1192,23 +1188,26 @@
 }
 
 .sup__checkboxes input[type="checkbox"],
-.modal-password__wrapper input[type="checkbox"] {
+.modal-password__wrapper input[type="checkbox"],
+.modal-check__wrapper input[type="checkbox"] {
 	display: none;
 }
 
 .sup__checkboxes input[type="checkbox"] + *::before,
-.modal-password__wrapper input[type="checkbox"] + *::before {
+.modal-password__wrapper input[type="checkbox"] + *::before,
+.modal-check__wrapper input[type="checkbox"] + *::before {
 	content: "";
 	width: 16px;
 	height: 16px;
 	border-radius: 4px;
 	border-style: solid;
-	border-width: 1.60px;
-	border-color:  #a4a4b2;
+	border-width: 1.6px;
+	border-color: #a4a4b2;
 	margin-right: 16px;
 }
 
-.modal-password__wrapper input[type="checkbox"] + *::before {
+.modal-password__wrapper input[type="checkbox"] + *::before,
+.modal-check__wrapper input[type="checkbox"] + *::before {
 	margin-right: 10px;
 }
 
@@ -1220,7 +1219,8 @@
 	border-color: #ffba30;
 }
 
-.modal-password__wrapper input[type="checkbox"]:checked + *::before {
+.modal-password__wrapper input[type="checkbox"]:checked + *::before,
+.modal-check__wrapper input[type="checkbox"]:checked + *::before {
 	content: "✓";
 	color: white;
 	text-align: center;
@@ -1260,25 +1260,25 @@
 	cursor: pointer;
 }
 
-.integration__tablist-items li:hover, 
+.integration__tablist-items li:hover,
 .integration__tablist-items li[aria-selected="true"] {
-    color: #222;
+	color: #222;
 }
 
 .integration__tablist-items li::before {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 4px;
-    background-color: #ffba30;
-    opacity: 0;
-    transition: 0.3s;
+	content: "";
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 4px;
+	background-color: #ffba30;
+	opacity: 0;
+	transition: 0.3s;
 }
 
-.integration__tablist-items li:hover::before, 
+.integration__tablist-items li:hover::before,
 .integration__tablist-items li[aria-selected="true"]::before {
-    opacity: 1;
+	opacity: 1;
 }
 
 .integration__tablist-tabs {
@@ -1303,15 +1303,15 @@
 
 .overlay {
 	padding: 15px;
-    display: flex;
+	display: flex;
 	align-items: center;
 	justify-content: center;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    z-index: 15;
-    background-color: rgba(0, 0, 0, .7);
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	z-index: 15;
+	background-color: rgba(0, 0, 0, 0.7);
 }
 
 .sup__modal {
@@ -1319,6 +1319,8 @@
 	border-radius: 16px;
 	background: #fff;
 	max-width: 100%;
+	max-height: 100%;
+	overflow: auto;
 }
 
 .sup__modal-form {
@@ -1327,7 +1329,7 @@
 	align-items: center;
 	gap: 32px;
 }
- 
+
 .sup__modal .lk__title {
 	text-align: center;
 }
@@ -1341,6 +1343,8 @@
 }
 
 .sup__modal-input label {
+	display: flex;
+	align-items: center;
 	line-height: 150%;
 	letter-spacing: -0.02em;
 }
@@ -1382,7 +1386,7 @@
 }
 
 .sup__modal-btns button:hover {
-	opacity: .7;
+	opacity: 0.7;
 }
 
 .sup__modal-download {
@@ -1395,7 +1399,7 @@
 	justify-content: center;
 }
 
-.sup__modal-download input[type=file] {
+.sup__modal-download input[type="file"] {
 	width: 0.1px;
 	height: 0.1px;
 	opacity: 0;
@@ -1440,7 +1444,7 @@
 }
 
 .modal-password__wrapper a:hover {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
 .modal-input__wrap {
@@ -1449,6 +1453,13 @@
 	gap: 10px;
 }
 
+.modal-check__wrapper {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 32px;
+}
 
 #directory,
 #unscrupulous,
@@ -1462,7 +1473,6 @@
 	display: none;
 }
 
-
 @media screen and (min-width: 576px) {
 	.lk__info-count {
 		grid-template-columns: repeat(2, 1fr);
@@ -1475,6 +1485,7 @@
 
 	.sup__modal-input {
 		grid-template-columns: repeat(2, 1fr);
+		grid-template-columns: 1fr 2fr;
 	}
 
 	.sup__modal-btns {
@@ -1486,7 +1497,6 @@
 	.sup__modal-btns button {
 		width: 145px;
 	}
-	
 }
 
 @media screen and (min-width: 992px) {
