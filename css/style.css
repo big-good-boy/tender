@@ -2133,6 +2133,13 @@ a {
 	font-size: 12px;
 	font-weight: 400;
 }
+
+.message__btn:hover,
+.footer__btn:hover {
+	color: white;
+	opacity: .7;
+}
+
 @media screen and (max-width: 1199px) {
 	.tender__info {
 		flex-direction: column-reverse;

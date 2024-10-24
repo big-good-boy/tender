@@ -81,3 +81,25 @@ document
 				.replace(/(\d)(?=(\d{3})+$)/g, '$1 ');
 		};
 	});
+
+
+// ЛК меню
+
+let lkMenu = document.querySelector('.lk__menu-list');
+let lkMenuBtn = document.querySelector('.lk__menu-title');
+
+lkMenuBtn.addEventListener('click', () => {
+    lkMenu.classList.toggle('open-menu');
+});
+
+// ЛК меню поставщики
+let lkMenuSup = document.querySelector('.lk__menu-hidden');
+let lkMenuBtnSup = document.querySelector('.lk__menu-btn');
+
+lkMenuBtnSup.addEventListener('click', () => {
+    lkMenuSup.classList.add('open-menu');
+	lkMenuBtnSup.style.display = 'none';
+});
+
+
+
